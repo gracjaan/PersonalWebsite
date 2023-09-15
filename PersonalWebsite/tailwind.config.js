@@ -7,12 +7,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#000000',
+        primary: 'rgba(0, 0, 0)',
         secondary: {
-          1: 'rgba(255, 255, 255)',
-          2: 'rgba(115, 21, 230)',
+          100: 'rgba(255, 255, 255)',
+          200: 'rgba(255, 255, 255, 0.64)',
         },
-        tertiary: '#F5F5F5',
+        tertiary: 'rgba(162, 61, 224)',
       },
     },
   },
