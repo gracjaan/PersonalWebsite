@@ -13,6 +13,7 @@ export default {
           200: 'rgba(255, 255, 255, 0.64)',
         },
         tertiary: 'rgba(162, 61, 224)',
+        quaternary: 'rgba(115, 21, 230)',
       },
     },
   },
