@@ -6,38 +6,4 @@
   html {
     font-family: Helvetica, system-ui, sans-serif;
   }
-
-  .modal {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(115, 21, 230);
-    padding: 40px 20px;
-    animation: slideUp 0.3s ease; 
-  }
-
-  .modal.active {
-    animation: slideDown 0.3s ease; 
-  }
-
-  @keyframes slideDown {
-    from {
-      transform: translateY(-100%);
-    }
-    to {
-      transform: translateY(0);
-    }
-  }
-
-  @keyframes slideUp {
-    from {
-      transform: translateY(0);
-    }
-    to {
-      transform: translateY(-100%);
-    }
-  }
 }
