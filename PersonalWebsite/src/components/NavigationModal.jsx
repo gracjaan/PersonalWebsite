@@ -1,10 +1,21 @@
-import React from "react";
+import React, {useState} from "react";
 import { XMarkIcon } from "@heroicons/react/24/solid";
 
 const NavigationModal = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleModal = () => {
+    setIsOpen(!isOpen);
+    const modal = document.getElementById("modal");
+    modal.classList.remove("active");
+    modal.addEventListener("animationend", () => {
+      modal.classList.add("hidden");
+    });
+  };  
+
   return (
-    <div className="bg-quaternary px-5 py-10 fixed top-0 left-0 right-0 flex flex-col">
-      <button className="self-end">
+    <div className="modal active" id="modal">
+      <button className="self-end" onClick={toggleModal}>
         <XMarkIcon className="h-8 w-8 text-white" />
       </button>
       <div className="flex flex-col items-start">
