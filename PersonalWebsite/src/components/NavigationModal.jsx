@@ -27,7 +27,7 @@ const NavigationModal = ({openModal, setOpenModal}) => {
   }
 
   return (
-    <div className="bg-quaternary px-5 py-10 fixed top-0 left-0 right-0 flex flex-col hidden" id="modal">
+    <div className="bg-quaternary px-5 py-10 fixed top-0 left-0 right-0 flex flex-col hidden z-50" id="modal">
       <button className="self-end" onClick={() => hideModal()}>
         <XMarkIcon className="h-8 w-8 text-white" />
       </button>
