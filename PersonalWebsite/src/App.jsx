@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Landing from './pages/Landing'
 import Header from './components/Header'
 import Introduction from './pages/Introduction'
+import Projects from './pages/Projects'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <main>
           <Landing />
           <Introduction />
+          <Projects />
         </main>
       </div>
     </div>
