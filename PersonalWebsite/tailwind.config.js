@@ -23,11 +23,21 @@ export default {
         slideDown: {
           'from' : {transform: 'translateY(-100%)'},
           'to' : {transform: 'translateY(0)'}
+        },
+        rotatingText: {
+          "0%": { transform: "translateY(0)" },
+          "28%": { transform: "translateY(0)" },
+          "33%": { transform: "translateY(-4.6rem)" },
+          "62%": { transform: "translateY(-4.6rem)" },
+          "67%": { transform: "translateY(-9.2rem)" },
+          "95%": { transform: "translateY(-9.2rem)" },
+          "100%": { transform: "translateY(0)" },
         }
       },
       animation: {
         slideUp: 'slideUp 0.5s ease',
-        slideDown: 'slideDown 0.5s ease'
+        slideDown: 'slideDown 0.5s ease',
+        rotatingText: 'rotatingText 6s linear infinite'
       }
     },
   },
