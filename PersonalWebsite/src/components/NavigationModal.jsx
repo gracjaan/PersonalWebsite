@@ -1,21 +1,34 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import { XMarkIcon } from "@heroicons/react/24/solid";
 
-const NavigationModal = () => {
-  const [isOpen, setIsOpen] = useState(false);
+const NavigationModal = ({openModal, setOpenModal}) => {
 
-  const toggleModal = () => {
-    setIsOpen(!isOpen);
+  useEffect(() => {
+    if (openModal) {
+      showModal();
+    }
+  }, [openModal]);
+  
+  const showModal = () => {
     const modal = document.getElementById("modal");
-    modal.classList.remove("active");
+    modal.classList.remove("hidden");
+    modal.classList.remove("animate-slideUp");
+    modal.classList.add("animate-slideDown");
+  }
+
+  const hideModal = () => {
+    const modal = document.getElementById("modal");
+    modal.classList.remove("animate-slideDown");
+    modal.classList.add("animate-slideUp");
     modal.addEventListener("animationend", () => {
       modal.classList.add("hidden");
-    });
-  };  
+    }, {once: true});
+    setOpenModal(false);
+  }
 
   return (
-    <div className="modal active" id="modal">
-      <button className="self-end" onClick={toggleModal}>
+    <div className="bg-quaternary px-5 py-10 fixed top-0 left-0 right-0 flex flex-col hidden" id="modal">
+      <button className="self-end" onClick={() => hideModal()}>
         <XMarkIcon className="h-8 w-8 text-white" />
       </button>
       <div className="flex flex-col items-start">
