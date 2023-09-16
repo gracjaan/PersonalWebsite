@@ -3,6 +3,7 @@ import Landing from './pages/Landing'
 import Header from './components/Header'
 import Introduction from './pages/Introduction'
 import Projects from './pages/Projects'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
           <Landing />
           <Introduction />
           <Projects />
+          <Footer />
         </main>
       </div>
     </div>
