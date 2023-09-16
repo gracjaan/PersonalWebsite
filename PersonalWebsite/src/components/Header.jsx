@@ -11,7 +11,7 @@ const Header = () => {
         <div className="text-white text-lg font-normal leading-8">
           Gracjan Chmielnicki
         </div>
-        <div className="text-white text-sm xl:text-lg font-normal leading-8 text-secondary-200">
+        <div className="text-white text-sm xl:text-lg font-normal leading-8 text-secondary-200/[.64]">
           Full Stack Developer
         </div>
       </div>
