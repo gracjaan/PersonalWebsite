@@ -15,7 +15,7 @@ const Projects = () => {
             cooperations.
           </h4>
           <ul className="mt-5">
-            <li className="text-white text-3xl font-normal leading-[70px] mb-5 border-b">
+            <li className="text-white text-3xl font-normal leading-[70px] mb-5 border-b border-white/[.24]">
               <button className="w-full p-[10px] flex flex-row justify-between items-center">
                 <h4 className="text-white text-3xl font-normal leading-[70px]">
                   styll.
@@ -23,7 +23,7 @@ const Projects = () => {
                 <ArrowRightIcon className="text-white h-[30px]" />
               </button>
             </li>
-            <li className="text-white text-3xl font-normal leading-[70px] mb-5 border-b">
+            <li className="text-white text-3xl font-normal leading-[70px] mb-5 border-b border-white/[.24]">
               <button className="w-full p-[10px] flex flex-row justify-between items-center">
                 <h4 className="text-white text-3xl font-normal leading-[70px]">
                   styll.
@@ -31,7 +31,7 @@ const Projects = () => {
                 <ArrowRightIcon className="text-white h-[30px]" />
               </button>
             </li>
-            <li className="text-white text-3xl font-normal leading-[70px] mb-5 border-b">
+            <li className="text-white text-3xl font-normal leading-[70px] mb-5 border-b border-white/[.24]">
               <button className="w-full p-[10px] flex flex-row justify-between items-center">
                 <h4 className="text-white text-3xl font-normal leading-[70px]">
                   styll.
@@ -39,7 +39,7 @@ const Projects = () => {
                 <ArrowRightIcon className="text-white h-[30px]" />
               </button>
             </li>
-            <li className="text-white text-3xl font-normal leading-[70px] mb-5 border-b">
+            <li className="text-white text-3xl font-normal leading-[70px] mb-5 border-b border-white/[.24]">
               <button className="w-full p-[10px] flex flex-row justify-between items-center">
                 <h4 className="text-white text-3xl font-normal leading-[70px]">
                   styll.
@@ -47,7 +47,7 @@ const Projects = () => {
                 <ArrowRightIcon className="text-white h-[30px]" />
               </button>
             </li>
-            <li className="text-white text-3xl font-normal leading-[70px] mb-5 border-b">
+            <li className="text-white text-3xl font-normal leading-[70px] mb-5 border-b border-white/[.24]">
               <button className="w-full p-[10px] flex flex-row justify-between items-center">
                 <h4 className="text-white text-3xl font-normal leading-[70px]">
                   styll.
