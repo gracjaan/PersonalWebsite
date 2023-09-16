@@ -24,7 +24,7 @@ const Landing = () => {
             with me!
           </h1>
         </div>
-        <button className="text-white text-lg leading-8 hover:text-primary transition ease-in hidden md:block border border-secondary-100 rounded-full px-8 py-4 hover:bg-secondary-100">
+        <button className="text-white text-lg leading-8 hover:text-primary transition ease-in hidden md:block border border-secondary rounded-full px-8 py-4 hover:bg-secondary">
           Get in touch
         </button>
       </div>

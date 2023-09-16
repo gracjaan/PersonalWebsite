@@ -7,13 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: 'rgba(0, 0, 0)',
-        secondary: {
-          100: 'rgba(255, 255, 255)',
-          200: 'rgba(255, 255, 255, 0.64)',
-        },
-        tertiary: 'rgba(162, 61, 224)',
-        quaternary: 'rgba(115, 21, 230)',
+        primary: 'rgb(0, 0, 0)',
+        secondary: 'rgb(255, 255, 255)',
+        tertiary: 'rgb(162, 61, 224)',
+        quaternary: 'rgb(115, 21, 230)',
       },
       keyframes: {
         slideUp: {

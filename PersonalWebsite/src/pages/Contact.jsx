@@ -23,7 +23,7 @@ const Contact = () => {
             rows={2}
             className="border border-white/[.24] rounded-lg bg-transparent p-4 text-white text-lg font-normal"
           ></textarea>
-          <button className="text-white text-lg leading-8 hover:text-primary transition ease-in hidden md:block border border-secondary-100 rounded-full px-8 py-4 hover:bg-secondary-100 self-start mt-5">
+          <button className="text-white text-lg leading-8 hover:text-primary transition ease-in hidden md:block border border-secondary rounded-full px-8 py-4 hover:bg-secondary self-start mt-5">
             Send me a message!
           </button>
         </form>

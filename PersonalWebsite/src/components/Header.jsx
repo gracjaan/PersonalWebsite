@@ -11,7 +11,7 @@ const Header = () => {
         <div className="text-white text-lg font-normal leading-8">
           Gracjan Chmielnicki
         </div>
-        <div className="text-white text-sm xl:text-lg font-normal leading-8 text-secondary-200/[.64]">
+        <div className="text-white text-sm xl:text-lg font-normal leading-8 text-secondary/[.64]">
           Full Stack Developer
         </div>
       </div>
@@ -25,10 +25,10 @@ const Header = () => {
         <button className="text-white text-lg leading-8 hover:text-tertiary transition ease-in hidden xl:block">
           Projects
         </button>
-        <button className="text-white text-lg leading-8 hover:text-primary transition ease-in hidden md:block border border-secondary-100 rounded-full px-8 py-4 hover:bg-secondary-100">
+        <button className="text-white text-lg leading-8 hover:text-primary transition ease-in hidden md:block border border-secondary rounded-full px-8 py-4 hover:bg-secondary">
           Get in touch
         </button>
-        <button className="h-6 w-6 text-secondary-100 xl:hidden" onClick={() => setOpenModal(true)}>
+        <button className="h-6 w-6 text-secondary xl:hidden" onClick={() => setOpenModal(true)}>
           <Bars3Icon />
         </button>
       </nav>
