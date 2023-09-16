@@ -6,7 +6,7 @@ const Header = () => {
   const [openModal, setOpenModal] = useState(false);
 
   return (
-    <header className="bg-black py-5 px-10 xl:py-10 xl:px-20 fixed top-0 left-0 right-0 flex justify-between items-center h-[92px] xl:h-[132px]">
+    <header className="bg-black py-5 px-10 xl:py-10 xl:px-20 fixed top-0 left-0 right-0 flex justify-between items-center h-[92px] xl:h-[132px] max-w-[1920px] mx-auto z-50">
       <div className="flex flex-col xl:flex-row xl:gap-5 justify-between xl:items-center">
         <div className="text-white text-lg font-normal leading-8">
           Gracjan Chmielnicki
