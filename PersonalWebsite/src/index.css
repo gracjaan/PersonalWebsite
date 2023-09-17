@@ -25,6 +25,6 @@
   }
 
   span {
-    @apply font-ar text-white text-lg leading-8;
+    @apply font-ar text-secondary text-lg leading-8;
   }
 }
