@@ -27,4 +27,12 @@
   span {
     @apply font-ar text-secondary text-lg leading-8;
   }
+
+  input {
+    @apply !outline-none border border-white/[.24] rounded-lg bg-transparent p-4 text-white text-lg font-normal;
+  }
+
+  textarea {
+    @apply !outline-none border border-white/[.24] rounded-lg bg-transparent p-4 text-white text-lg font-normal;
+  }
 }
