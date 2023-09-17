@@ -18,7 +18,7 @@ const Landing = () => {
               application performance
             </h1>
             <h1 className="animate-rotatingText1 lg:animate-rotatingText2 2xl:animate-rotatingText3">
-              developers' knowledge
+              digital presence
             </h1>
           </div>
           <h1>
