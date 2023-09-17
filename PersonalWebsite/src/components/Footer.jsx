@@ -16,8 +16,7 @@ const Footer = () => {
       </div>
       <div className="py-5">
         <span>
-          Copyright © 2023 Michał Chudziak. All rights reserved.
-          hello@michalchudziak.dev.
+          Copyright © 2023 Gracjan Chmielnicki. All rights reserved.
         </span>
       </div>
     </footer>
