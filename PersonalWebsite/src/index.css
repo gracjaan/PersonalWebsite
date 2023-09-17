@@ -36,6 +36,10 @@
     @apply font-ab text-[48px] md:text-[52px] lg:text-[72px] text-secondary leading-[48px] md:leading-[52px] lg:leading-[72px];
   }
 
+  h3 {
+    @apply font-ab text-[28px] md:text-[32px] lg:text-[36px] text-secondary leading-[28px] md:leading-[32px] lg:leading-[40px];
+  }
+
   h4 {
     @apply font-ar text-secondary text-2xl lg:text-3xl leading-[46px] lg:leading-[52px];
   }
@@ -46,5 +50,14 @@
 
   textarea {
     @apply !outline-none border border-white/[.24] rounded-lg bg-transparent p-4 text-white text-lg font-normal;
+  }
+
+  .noscrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .noscrollbar::-webkit-scrollbar {
+    display: none;
   }
 }
