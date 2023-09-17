@@ -35,7 +35,11 @@ export default {
         slideUp: 'slideUp 0.5s ease',
         slideDown: 'slideDown 0.5s ease',
         rotatingText: 'rotatingText 6s linear infinite'
-      }
+      },
+      fontFamily: {
+        'ar': ["Aeonik-Regular", "Montserrat","Helvetica", "system-ui", "sans-serif"],
+        'ab': ["Aeonik-Bold", "Montserrat","Helvetica", "system-ui", "sans-serif"]
+      },
     },
   },
   plugins: [],
