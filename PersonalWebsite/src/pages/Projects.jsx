@@ -1,8 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import Logo from "../assets/projects.webp";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
+import Modal from "../components/Modal";
 
 const Projects = () => {
+  const [openModal, setOpenModal] = useState(false);
+
   return (
     <section className="mt-[320px] px-10 lg:px-20 2xl:px-40 bg-primary">
       <h2 className="text-white text-7xl font-normal leading-[70px] mb-10">
@@ -48,7 +51,7 @@ const Projects = () => {
               </button>
             </li>
             <li className="mb-5 border-b border-white/[.24]">
-              <button className="w-full p-[10px] flex flex-row justify-between items-center">
+              <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal(true)}>
                 <h4>
                   styll.
                 </h4>
@@ -61,6 +64,7 @@ const Projects = () => {
           <img src={Logo} alt="Logo" className="h-[660px]" />
         </div>
       </div>
+      <Modal openModal={openModal} setOpenModal={setOpenModal}/>
     </section>
   );
 };
