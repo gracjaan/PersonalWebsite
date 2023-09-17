@@ -1,15 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Aeonik-Regular";
+  src: url("./fonts/AeonikTRIAL-Regular.otf");
+}
+
+@font-face {
+  font-family: "Aeonik-Bold";
+  src: url("./fonts/AeonikTRIAL-Bold.otf");
+}
+
 @layer base {
   html {
-    font-family: Helvetica, system-ui, sans-serif;
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
 
   html::-webkit-scrollbar {
     display: none;
+  }
+
+  span {
+    @apply font-ar text-white text-lg leading-8;
   }
 }
