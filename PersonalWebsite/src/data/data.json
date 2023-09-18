@@ -1,0 +1,20 @@
+{
+    "id1": {
+        "name": "styll.",
+        "hashtags": [
+            "#reactnative", 
+            "#firebase",
+            "#authentication",
+            "#notifications",
+            "#geolocation"
+        ],
+        "description": "A social network for developers",
+        "media": [
+            "../assets/grako.png", "../assets/grako.png", "../assets/grako.png"
+        ],
+        "links": {
+            "github": "github.com/stylll",
+            "website": "styll.herokuapp.com"
+        }
+    }
+}
