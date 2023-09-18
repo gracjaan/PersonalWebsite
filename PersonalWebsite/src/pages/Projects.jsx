@@ -14,8 +14,7 @@ const Projects = () => {
       <div className="flex flex-col 2xl:flex-row">
         <div className="flex flex-col flex-1 2xl:max-w-[45%]">
           <h4>
-            I have over 10 years of commercial experience and 30+ successful business
-            cooperations.
+            I have been coding for 5 years and I succesfully developed two businesses.
           </h4>
           <ul className="mt-5">
             <li className="mb-5 border-b border-white/[.24]">
