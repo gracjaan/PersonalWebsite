@@ -44,6 +44,10 @@
     @apply font-ar text-secondary text-2xl lg:text-3xl leading-[46px] lg:leading-[52px];
   }
 
+  h5 {
+    @apply font-ab text-[20px] md:text-[22px] lg:text-[24px] text-secondary/[.4] leading-[30px] md:leading-[33px] lg:leading-[36px];
+  }
+
   input {
     @apply !outline-none border border-white/[.24] rounded-lg bg-transparent p-4 text-white text-lg font-normal;
   }
