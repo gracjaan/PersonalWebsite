@@ -59,6 +59,9 @@ const Projects = () => {
               </button>
             </li>
           </ul>
+          <button className="text-white text-lg leading-8 hover:text-primary transition ease-in hidden md:block border border-secondary rounded-full px-8 py-4 hover:bg-secondary self-start mt-5">
+            Show more projects
+          </button>
         </div>
         <div className="flex flex-1 justify-center items-center">
           <img src={Logo} alt="Logo" className="h-[660px]" />
