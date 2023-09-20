@@ -55,6 +55,7 @@ const Modal = ({ openModal, setOpenModal }) => {
     overlay.addEventListener("animationend", () => {
       overlay.classList.add("hidden");
       setOpenModal("");
+      document.getElementById("scrollable").scrollTop = 0;
     }, { once: true });
   };
 
@@ -65,7 +66,7 @@ const Modal = ({ openModal, setOpenModal }) => {
         <button className="self-end" onClick={() => hideModal()}>
           <XMarkIcon className="h-8 w-8 text-white" />
         </button>
-        <div className="flex flex-col mt-5 pb-10 overflow-y-auto noscrollbar ">
+        <div className="flex flex-col mt-5 pb-10 overflow-y-auto noscrollbar" id="scrollable">
           <h2 className="pb-10">
             {projectData.name}
           </h2>
