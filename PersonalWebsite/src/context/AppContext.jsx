@@ -7,7 +7,7 @@ export function useAppContext() {
 }
 
 export function AppProvider({ children }) {
-  const [isIntroductionInMiddle, setIsIntroductionInMiddle] = useState(false);
+  const [isIntroductionInMiddle, setIsIntroductionInMiddle] = useState(true);
 
   return (
     <AppContext.Provider value={{ isIntroductionInMiddle, setIsIntroductionInMiddle }}>
