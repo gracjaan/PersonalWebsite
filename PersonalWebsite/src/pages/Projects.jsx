@@ -4,7 +4,7 @@ import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import Modal from "../components/Modal";
 
 const Projects = () => {
-  const [openModal, setOpenModal] = useState(false);
+  const [openModal, setOpenModal] = useState("");
 
   return (
     <section className="mt-[320px] px-10 lg:px-20 2xl:px-40 bg-primary">
@@ -18,7 +18,7 @@ const Projects = () => {
           </h4>
           <ul className="mt-5">
             <li className="mb-5 border-b border-white/[.24]">
-              <button className="w-full p-[10px] flex flex-row justify-between items-center">
+              <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id0")}>
                 <h4>
                   styll.
                 </h4>
@@ -26,7 +26,7 @@ const Projects = () => {
               </button>
             </li>
             <li className="mb-5 border-b border-white/[.24]">
-              <button className="w-full p-[10px] flex flex-row justify-between items-center">
+              <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id1")}>
                 <h4>
                   styll.
                 </h4>
@@ -34,7 +34,7 @@ const Projects = () => {
               </button>
             </li>
             <li className="mb-5 border-b border-white/[.24]">
-              <button className="w-full p-[10px] flex flex-row justify-between items-center">
+              <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id2")}>
                 <h4>
                   styll.
                 </h4>
@@ -42,7 +42,7 @@ const Projects = () => {
               </button>
             </li>
             <li className="mb-5 border-b border-white/[.24]">
-              <button className="w-full p-[10px] flex flex-row justify-between items-center">
+              <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id3")}>
                 <h4>
                   styll.
                 </h4>
@@ -50,7 +50,7 @@ const Projects = () => {
               </button>
             </li>
             <li className="mb-5 border-b border-white/[.24]">
-              <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal(true)}>
+              <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id4")}>
                 <h4>
                   styll.
                 </h4>

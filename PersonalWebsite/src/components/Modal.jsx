@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { XMarkIcon } from "@heroicons/react/24/solid";
+import data from "../data/data.json";
 
-const Modal = ({ openModal, setOpenModal, id }) => {
+const Modal = ({ openModal, setOpenModal }) => {
+
+  const projectData = data[openModal] || data["default"];
+
   useEffect(() => {
-    if (openModal) {
+    if (openModal !== "") {
       showModal();
     }
   }, [openModal]);
@@ -50,28 +54,34 @@ const Modal = ({ openModal, setOpenModal, id }) => {
     overlay.classList.add("animate-fadeOut");
     overlay.addEventListener("animationend", () => {
       overlay.classList.add("hidden");
+      setOpenModal("");
     }, { once: true });
-
-    setOpenModal(false);
   };
 
   return (
     <>
-      <div id="modal-overlay2" className="fixed top-0 left-0 w-full h-full bg-black/[.6] z-40 hidden"/>
-      <div className="bg-quaternary px-[120px] py-20 fixed bottom-0 left-0 2xl:left-[50%] right-0 top-[92px] xl:top-[132px] 2xl:top-0 flex flex-col hidden z-50 rounded-t-3xl 2xl:rounded-none" id="modal2">
+      <div id="modal-overlay2" className="fixed top-0 left-0 w-full h-full bg-black/[.6] z-40 hidden" onClick={() => hideModal()}/>
+      <div className="bg-quaternary px-[120px] pt-20 fixed bottom-0 left-0 2xl:left-[50%] right-0 top-[92px] xl:top-[132px] 2xl:top-0 flex flex-col hidden z-50 rounded-t-3xl 2xl:rounded-none" id="modal2">
         <button className="self-end" onClick={() => hideModal()}>
           <XMarkIcon className="h-8 w-8 text-white" />
         </button>
-        <div className="flex flex-col items-start mt-5 pb-10 overflow-y-scroll noscrollbar">
+        <div className="flex flex-col mt-5 pb-10 overflow-y-auto noscrollbar ">
           <h2 className="pb-10">
-            Open Source
+            {projectData.name}
           </h2>
-          <div className="flex flex-col items-start mt-5">
+          <div className="flex flex-col mt-5">
             <h3 className="py-5">
-              styll.
+              {projectData.description}
             </h3>
-
+            <div className="flex flex-row items-center mb-[10px] gap-2 w-full overflow-x-scroll noscrollbar">
+                {projectData.hashtags.map((hashtag, index) => (
+                  <h5 key={index}>{hashtag}</h5>
+                ))}
             </div>
+            <span className="text-justify">
+              {projectData.message}
+            </span>
+          </div>
         </div>
       </div>
     </>
