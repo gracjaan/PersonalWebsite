@@ -8,7 +8,7 @@ const Projects = () => {
   const [openModal, setOpenModal] = useState("");
 
   return (
-    <section className="mt-[320px] px-10 lg:px-20 2xl:px-40">
+    <section className="mt-[320px] px-10 lg:px-20 2xl:px-40" id="projects">
       <h2 className="text-white text-7xl font-normal leading-[70px] mb-10">
         Projects
       </h2>

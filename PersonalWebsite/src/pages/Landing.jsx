@@ -4,7 +4,7 @@ import OvalButton from "../components/OvalButton";
 
 const Landing = () => {
   return (
-    <section className="pt-40 h-screen min-h-[100vh] flex flex-col justify-between">
+    <section className="pt-40 h-screen min-h-[100vh] flex flex-col justify-between" id="landing">
       <div className="px-10 lg:px-20 2xl:px-40">
         <div className="pb-16">
           <h1>
