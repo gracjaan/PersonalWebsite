@@ -7,10 +7,10 @@ export function useAppContext() {
 }
 
 export function AppProvider({ children }) {
-  const [isIntroductionInMiddle, setIsIntroductionInMiddle] = useState(true);
+  const [isBackgroundBlack, setisBackgroundBlack] = useState(true);
 
   return (
-    <AppContext.Provider value={{ isIntroductionInMiddle, setIsIntroductionInMiddle }}>
+    <AppContext.Provider value={{ isBackgroundBlack, setisBackgroundBlack }}>
       {children}
     </AppContext.Provider>
   );
