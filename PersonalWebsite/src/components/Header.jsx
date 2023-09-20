@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import { Bars3Icon } from "@heroicons/react/24/solid";
 import NavigationModal from "../components/NavigationModal";
 import OvalButton from "./OvalButton";
+import { useAppContext } from "../context/AppContext";
 
 const Header = () => {
   const [openModal, setOpenModal] = useState(false);
+  const { isBackgroundBlack } = useAppContext();
 
   return (
-    <header className="bg-black py-5 px-10 xl:py-10 xl:px-20 fixed top-0 left-0 right-0 flex justify-between items-center h-[92px] xl:h-[132px] max-w-[1920px] mx-auto z-30">
+    <header className={`py-5 px-10 xl:py-10 xl:px-20 fixed top-0 left-0 right-0 flex justify-between items-center h-[92px] xl:h-[132px] max-w-[1920px] mx-auto z-30 transition-all ease-in duration-300 ${isBackgroundBlack ? "bg-primary" : "bg-quaternary"}`}>
       <div className="flex flex-col xl:flex-row xl:gap-5 justify-between xl:items-center">
         <span>Gracjan Chmielnicki</span>
         <span className="text-sm xl:text-lg text-secondary/[.6]">
