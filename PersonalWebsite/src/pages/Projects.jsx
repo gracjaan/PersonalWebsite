@@ -6,6 +6,7 @@ import data from "../data/data.json";
 
 const Projects = () => {
   const [openModal, setOpenModal] = useState("");
+  const [showMore, setShowMore] = useState(false); 
 
   return (
     <section className="mt-[320px] px-10 lg:px-20 2xl:px-40" id="projects">
@@ -59,9 +60,33 @@ const Projects = () => {
               </button>
             </li>
           </ul>
-          <button className="text-white text-lg leading-8 hover:text-primary transition ease-in hidden md:block border border-secondary rounded-full px-8 py-4 hover:bg-secondary self-start mt-5">
-            Show more projects
-          </button>
+          <ul className={showMore ? "" : "hidden"} id="hiddenprojects">
+            <li className="mb-5 border-b border-white/[.24]">
+              <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id5")}>
+                <h4>
+                  {data.id1?.name || "not found."}
+                </h4>
+                <ArrowRightIcon className="text-white h-[30px]" />
+              </button>
+            </li>
+            <li className="mb-5 border-b border-white/[.24]">
+              <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id6")}>
+                <h4>
+                  {data.id1?.name || "not found."}
+                </h4>
+                <ArrowRightIcon className="text-white h-[30px]" />
+              </button>
+            </li>
+          </ul>
+          {showMore || ( 
+            <button
+              className="text-white text-lg leading-8 hover:text-primary transition ease-in md:block border border-secondary rounded-full px-8 py-4 hover:bg-secondary self-start mt-5"
+              id="showmorebutton"
+              onClick={() => setShowMore(true)}
+            >
+              Show more projects
+            </button>
+          )}
         </div>
         <div className="flex flex-1 justify-center items-center">
           <img src={Logo} alt="Logo" className="h-[660px]" />
