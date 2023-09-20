@@ -26,10 +26,6 @@
             "#lost"
         ],
         "description": "Failed to load resource.",
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl eget ultricies ultricies, nunc nisl ultricies nunc, vitae ultricies nisl nisl vitae nisl. Nulla euismod, nisl eget ultricies ultricies, nunc nisl ultricies nunc, vitae ultricies nisl nisl vitae nisl. Nulla euismod, nisl eget ultricies ultricies, nunc nisl ultricies nunc, vitae ultricies nisl nisl vitae nisl. Nulla euismod, nisl eget ultricies ultricies, nunc nisl ultricies nunc, vitae ultricies nisl nisl vitae nisl. Nulla euismod, nisl eget ultricies ultricies, nunc nisl ultricies nunc, vitae ultricies nisl nisl vitae nisl.",
-        "media": [
-            "../assets/grako.png", "../assets/grako.png", "../assets/grako.png", "../assets/grako.png"
-        ],
         "links": {
             "github": "github.com/stylll",
             "website": "styll.herokuapp.com"
