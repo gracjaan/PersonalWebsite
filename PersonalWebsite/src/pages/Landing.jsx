@@ -10,15 +10,15 @@ const Landing = () => {
           <h1>
             Enhance your
           </h1>
-          <div className="h-[60px] lg:h-[72px] 2xl:h-[120px] overflow-hidden">
-            <h1 className="animate-rotatingText1 lg:animate-rotatingText2 2xl:animate-rotatingText3">
-              business development
+          <div className="h-[120px] sm:h-[60px] lg:h-[72px] 2xl:h-[120px] overflow-hidden">
+            <h1 className="animate-rotatingText3 sm:animate-rotatingText1 lg:animate-rotatingText2 2xl:animate-rotatingText3 whitespace-nowrap">
+              business <br className="sm:hidden" /> development
             </h1>
-            <h1 className="animate-rotatingText1 lg:animate-rotatingText2 2xl:animate-rotatingText3">
-              application performance
+            <h1 className="animate-rotatingText3 sm:animate-rotatingText1 lg:animate-rotatingText2 2xl:animate-rotatingText3 whitespace-nowrap">
+              application <br className="sm:hidden" /> performance
             </h1>
-            <h1 className="animate-rotatingText1 lg:animate-rotatingText2 2xl:animate-rotatingText3">
-              digital presence
+            <h1 className="animate-rotatingText3 sm:animate-rotatingText1 lg:animate-rotatingText2 2xl:animate-rotatingText3 whitespace-nowrap">
+              digital <br className="sm:hidden" /> presence
             </h1>
           </div>
           <h1>
