@@ -4,7 +4,7 @@ import OvalButton from "../components/OvalButton";
 
 const Contact = () => {
   return (
-    <section className="mt-[320px] px-10 lg:px-20 2xl:px-40 bg-primary flex flex-col xl:flex-row">
+    <section className="mt-[320px] px-10 lg:px-20 2xl:px-40 flex flex-col xl:flex-row">
       <div className="flex flex-col flex-1 2xl:max-w-[45%]">
         <h2 className="text-white text-7xl font-normal">Contact</h2>
         <form className="flex flex-col gap-5 my-10">

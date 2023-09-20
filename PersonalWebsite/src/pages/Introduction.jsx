@@ -4,7 +4,7 @@ import Grako from "../assets/grako.png";
 
 const Introduction = () => {
   return (
-    <section className="mt-[480px] px-10 lg:px-20 2xl:px-40 bg-primary flex flex-col-reverse 2xl:flex-row">
+    <section className="mt-[480px] px-10 lg:px-20 2xl:px-40 bg-transparent flex flex-col-reverse 2xl:flex-row" id="introduction">
       <div className="flex flex-1 justify-center items-center">
         <img src={Grako} alt="Logo" className="h-[660px]" />
       </div>
