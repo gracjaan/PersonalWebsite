@@ -78,6 +78,13 @@ const Modal = ({ openModal, setOpenModal }) => {
                   <h5 key={index}>{hashtag}</h5>
                 ))}
             </div>
+            {projectData.media && projectData.media.length > 0 && (
+            <div className="flex flex-row w-full overflow-x-scroll noscrollbar gap-2">
+                {projectData.media.map((image, index) => (
+                  <img key={index} src={"/favicon.ico"} className="w-[300px] h-[200px] object-cover rounded-xl" />
+                ))}
+            </div>
+            )}
             <span className="text-justify">
               {projectData.message}
             </span>
