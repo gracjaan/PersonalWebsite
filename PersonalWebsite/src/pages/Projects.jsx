@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import Logo from "../assets/projects.webp";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import Modal from "../components/Modal";
+import data from "../data/data.json";
 
 const Projects = () => {
   const [openModal, setOpenModal] = useState("");
@@ -20,7 +21,7 @@ const Projects = () => {
             <li className="mb-5 border-b border-white/[.24]">
               <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id0")}>
                 <h4>
-                  styll.
+                  {data.id0?.name || "not found."}
                 </h4>
                 <ArrowRightIcon className="text-white h-[30px]" />
               </button>
@@ -28,7 +29,7 @@ const Projects = () => {
             <li className="mb-5 border-b border-white/[.24]">
               <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id1")}>
                 <h4>
-                  styll.
+                  {data.id1?.name || "not found."}
                 </h4>
                 <ArrowRightIcon className="text-white h-[30px]" />
               </button>
@@ -36,7 +37,7 @@ const Projects = () => {
             <li className="mb-5 border-b border-white/[.24]">
               <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id2")}>
                 <h4>
-                  styll.
+                  {data.id2?.name || "not found."}
                 </h4>
                 <ArrowRightIcon className="text-white h-[30px]" />
               </button>
@@ -44,7 +45,7 @@ const Projects = () => {
             <li className="mb-5 border-b border-white/[.24]">
               <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id3")}>
                 <h4>
-                  styll.
+                  {data.id3?.name || "not found."}
                 </h4>
                 <ArrowRightIcon className="text-white h-[30px]" />
               </button>
@@ -52,7 +53,7 @@ const Projects = () => {
             <li className="mb-5 border-b border-white/[.24]">
               <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id4")}>
                 <h4>
-                  styll.
+                  {data.id4?.name || "not found."}
                 </h4>
                 <ArrowRightIcon className="text-white h-[30px]" />
               </button>
