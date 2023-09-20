@@ -69,11 +69,11 @@ const Modal = ({ openModal, setOpenModal }) => {
           <h2 className="pb-10">
             {projectData.name}
           </h2>
-          <div className="flex flex-col mt-5">
-            <h3 className="py-5">
+          <div className="flex flex-col mt-5 gap-[10px]">
+            <h3>
               {projectData.description}
             </h3>
-            <div className="flex flex-row items-center mb-[10px] gap-2 w-full overflow-x-scroll noscrollbar">
+            <div className="flex flex-row items-center gap-2 w-full overflow-x-scroll noscrollbar">
                 {projectData.hashtags.map((hashtag, index) => (
                   <h5 key={index}>{hashtag}</h5>
                 ))}
