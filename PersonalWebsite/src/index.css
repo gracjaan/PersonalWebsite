@@ -48,6 +48,11 @@
     @apply font-ab text-[20px] md:text-[22px] lg:text-[24px] text-secondary/[.4] leading-[30px] md:leading-[33px] lg:leading-[36px];
   }
 
+  h6 {
+    @apply font-ab text-center text-[80px] md:text-[100px] lg:text-[128px] text-secondary/[.4] hover:text-secondary leading-[80px] md:leading-[100px] lg:leading-[128px] transition ease-in cursor-default;
+  }
+
+
   input {
     @apply !outline-none border border-white/[.24] rounded-lg bg-transparent p-4 text-white text-lg font-normal;
   }
@@ -64,4 +69,17 @@
   .noscrollbar::-webkit-scrollbar {
     display: none;
   }
+
+.rmt {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: 2s ease;
+}
+
+.rmtc {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
 }
