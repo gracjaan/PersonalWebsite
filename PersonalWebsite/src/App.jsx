@@ -5,6 +5,7 @@ import Introduction from "./pages/Introduction";
 import Projects from "./pages/Projects";
 import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
+import Performance from "./pages/Performance";
 import { useAppContext } from "./context/AppContext";
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
           <Landing />
           <Introduction />
           <Projects />
+          <Performance />
           <Contact />
           <Footer />
         </main>
