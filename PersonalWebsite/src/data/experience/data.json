@@ -6,16 +6,8 @@
         "description": "description"
     },
     "default": {
-        "name": "could not find resource.",
-        "hashtags": [
-            "#notfound", 
-            "#forbidden",
-            "#lost"
-        ],
-        "description": "Failed to load resource.",
-        "links": {
-            "github": "github.com/stylll",
-            "website": "styll.herokuapp.com"
-        }
+        "company": "could not find resource.",
+        "title": "Failed to load resource.",
+        "period": "#notfound #forbidden #lost"
     }
 }
