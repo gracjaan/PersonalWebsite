@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
 import Performance from "./pages/Performance";
 import Experience from "./pages/Experience";
+import Education from "./pages/Education";
 import { useAppContext } from "./context/AppContext";
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
           <Projects />
           <Performance />
           <Experience />
+          <Education />
           <Contact />
           <Footer />
         </main>
