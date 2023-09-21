@@ -1,9 +1,107 @@
-import React from 'react'
+import React, {useState} from "react";
+import Logo from "../assets/projects.webp";
+import { ArrowRightIcon } from "@heroicons/react/24/solid";
+import ModalExperience from "../components/ModalExperience";
+import data from "../data/experience/data.json";
 
 const Experience = () => {
-  return (
-    <div>Experience</div>
-  )
-}
+  const [openModal, setOpenModal] = useState("");
+  const [showMore, setShowMore] = useState(false); 
 
-export default Experience
+  return (
+    <section className="mt-[320px] px-10 lg:px-20 2xl:px-40" id="experience">
+      <div className="flex flex-col 2xl:flex-row">
+        <div className="flex flex-1 justify-start items-start">
+          <h2>Past job<br></br>positions</h2>
+        </div>
+        <div className="flex flex-col flex-1 2xl:max-w-[45%]">
+          <ul className="mt-5">
+            <li className="mb-5 border-b border-white/[.24]">
+              <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id0")}>
+                <div className="flex flex-col justify-start items-start">
+                    <span>
+                        Callstack
+                    </span>
+                    <h3>
+                        Head of Technology
+                    </h3>
+                    <span className="opacity-[0.4]">
+                        Oct 2019 - Jan 2022
+                    </span>
+                </div>
+                <ArrowRightIcon className="text-white h-[30px]" />
+              </button>
+            </li>
+            <li className="mb-5 border-b border-white/[.24]">
+              <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id1")}>
+              <div className="flex flex-col justify-start items-start">
+                    <span>
+                        Callstack
+                    </span>
+                    <h3>
+                        Head of Technology
+                    </h3>
+                    <span className="opacity-[0.4]">
+                        Oct 2019 - Jan 2022
+                    </span>
+                </div>
+                <ArrowRightIcon className="text-white h-[30px]" />
+              </button>
+            </li>
+            <li className="mb-5 border-b border-white/[.24]">
+              <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id2")}>
+              <div className="flex flex-col justify-start items-start">
+                    <span>
+                        Callstack
+                    </span>
+                    <h3>
+                        Head of Technology
+                    </h3>
+                    <span className="opacity-[0.4]">
+                        Oct 2019 - Jan 2022
+                    </span>
+                </div>
+                <ArrowRightIcon className="text-white h-[30px]" />
+              </button>
+            </li>
+            <li className="mb-5 border-b border-white/[.24]">
+              <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id3")}>
+              <div className="flex flex-col justify-start items-start">
+                    <span>
+                        Callstack
+                    </span>
+                    <h3>
+                        Head of Technology
+                    </h3>
+                    <span className="opacity-[0.4]">
+                        Oct 2019 - Jan 2022
+                    </span>
+                </div>
+                <ArrowRightIcon className="text-white h-[30px]" />
+              </button>
+            </li>
+            <li className="mb-5 border-b border-white/[.24]">
+              <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id4")}>
+              <div className="flex flex-col justify-start items-start">
+                    <span>
+                        Callstack
+                    </span>
+                    <h3>
+                        Head of Technology
+                    </h3>
+                    <span className="opacity-[0.4]">
+                        Oct 2019 - Jan 2022
+                    </span>
+                </div>
+                <ArrowRightIcon className="text-white h-[30px]" />
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <ModalExperience openModal={openModal} setOpenModal={setOpenModal}/>
+    </section>
+  );
+};
+
+export default Experience;
