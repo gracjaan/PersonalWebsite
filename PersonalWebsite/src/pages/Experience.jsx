@@ -10,10 +10,10 @@ const Experience = () => {
   const [openModal, setOpenModal] = useState("");
 
   return (
-    <section className="mt-[320px] px-10 lg:px-20 2xl:px-40 relative" id="experience">
+    <section className="mt-[240px] 2xl:mt-[320px] px-10 lg:px-20 2xl:px-40 relative" id="experience">
       <div className="flex flex-col 2xl:flex-row">
         <div className="flex flex-1 justify-start items-start">
-          <h2>Past job<br></br>positions</h2>
+          <h2>Experience</h2>
         </div>
         <div className="flex flex-col flex-1 2xl:max-w-[45%] z-20">
           <ul className="mt-10 2xl:mt-0">

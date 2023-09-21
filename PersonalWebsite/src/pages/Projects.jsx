@@ -9,7 +9,7 @@ const Projects = () => {
   const [showMore, setShowMore] = useState(false); 
 
   return (
-    <section className="mt-[320px] px-10 lg:px-20 2xl:px-40" id="projects">
+    <section className="mt-[240px] 2xl:mt-[320px] px-10 lg:px-20 2xl:px-40" id="projects">
       <h2 className="text-white text-7xl font-normal leading-[70px] mb-10">
         Projects
       </h2>
@@ -88,8 +88,8 @@ const Projects = () => {
             </button>
           )}
         </div>
-        <div className="flex flex-1 justify-center items-center">
-          <img src={Logo} alt="Logo" className="h-[660px]" />
+        <div className="flex flex-1 justify-center items-center mt-20 2xl:mt-0">
+          <img src={Logo} alt="Logo" className="max-h-[620px]" />
         </div>
       </div>
       <Modal openModal={openModal} setOpenModal={setOpenModal}/>
