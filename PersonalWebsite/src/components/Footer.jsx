@@ -1,16 +1,21 @@
 import React from "react";
 
 const Footer = () => {
+
+  const linkedinURL = "https://www.linkedin.com/in/gracjanchmielnicki";
+  const githubURL = "https://github.com/gracjaan";
+
+  const redirectToSocialMedia = (url) => {
+    window.location.href = url;
+  };
+
   return (
     <footer className="px-10 lg:px-20 2xl:px-40 transition-all ease-in duration-300">
       <div className="flex flex-row my-10 gap-10">
-        <button>
-          <span>Linkedin</span>
+        <button onClick={() => redirectToSocialMedia(linkedinURL)}>
+          <span>LinkedIn</span>
         </button>
-        <button>
-          <span>Twitter</span>
-        </button>
-        <button>
+        <button onClick={() => redirectToSocialMedia(githubURL)}>
           <span>GitHub</span>
         </button>
       </div>
