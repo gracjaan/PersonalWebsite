@@ -36,7 +36,7 @@ function App() {
   }, []);
 
   return (
-    <div className={`w-full ${isBackgroundBlack ? "bg-primary" : "bg-quaternary"} transition ease-in duration-300`}>
+    <div className={`w-full ${isBackgroundBlack ? "bg-primary" : "bg-quaternary"} transition ease-in duration-300 overflow-x-hidden`}>
       <div className="max-w-[1920px] mx-auto">
         <Header />
         <main>
