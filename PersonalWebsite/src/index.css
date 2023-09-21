@@ -33,7 +33,7 @@
   }
 
   h2 {
-    @apply font-ab text-[48px] md:text-[52px] lg:text-[72px] text-secondary leading-[48px] md:leading-[52px] lg:leading-[72px];
+    @apply font-ab text-[48px] md:text-[52px] lg:text-[72px] text-secondary leading-[54px] md:leading-[60px] lg:leading-[80px];
   }
 
   h3 {
