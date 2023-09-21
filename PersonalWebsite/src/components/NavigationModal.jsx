@@ -44,7 +44,7 @@ const NavigationModal = ({ openModal, setOpenModal }) => {
 
   return (
     <>
-      <div id="modal-overlay" className="fixed top-0 left-0 w-full h-full bg-black/[.6] z-40 hidden"/>
+      <div id="modal-overlay" className="fixed top-0 left-0 w-full h-full bg-black/[.6] z-40 hidden" onClick={() => hideModal()}/>
       <div className="bg-quaternary px-5 py-10 fixed top-0 left-0 right-0 flex flex-col hidden z-50" id="modal">
         <button className="self-end" onClick={() => hideModal()}>
           <XMarkIcon className="h-8 w-8 text-white" />
