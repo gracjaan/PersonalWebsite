@@ -49,9 +49,8 @@
   }
 
   h6 {
-    @apply font-ab text-center text-[80px] md:text-[100px] lg:text-[128px] text-secondary/[.4] hover:text-secondary leading-[80px] md:leading-[100px] lg:leading-[128px] transition ease-in cursor-default;
+    @apply font-ab text-center text-[80px] md:text-[100px] lg:text-[128px] text-secondary hover:scale-110 leading-[80px] md:leading-[100px] lg:leading-[128px] transition ease-in cursor-default;
   }
-
 
   input {
     @apply !outline-none border border-white/[.24] rounded-lg bg-transparent p-4 text-white text-lg font-normal;
