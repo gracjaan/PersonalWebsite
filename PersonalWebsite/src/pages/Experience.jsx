@@ -20,13 +20,13 @@ const Experience = () => {
               <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id0")}>
                 <div className="flex flex-col justify-start items-start">
                     <span>
-                        Callstack
+                        {data.id0?.company || "not found."}
                     </span>
                     <h3>
-                        Head of Technology
+                        {data.id0?.title || "not found."}
                     </h3>
                     <span className="opacity-[0.4]">
-                        Oct 2019 - Jan 2022
+                        {data.id0?.period || "not found."}
                     </span>
                 </div>
                 <ArrowRightIcon className="text-white h-[30px]" />
@@ -36,13 +36,13 @@ const Experience = () => {
               <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id1")}>
               <div className="flex flex-col justify-start items-start">
                     <span>
-                        Callstack
+                        {data.id1?.company || "not found."}
                     </span>
                     <h3>
-                        Head of Technology
+                        {data.id1?.title || "not found."}
                     </h3>
                     <span className="opacity-[0.4]">
-                        Oct 2019 - Jan 2022
+                        {data.id1?.period || "not found."}
                     </span>
                 </div>
                 <ArrowRightIcon className="text-white h-[30px]" />
@@ -52,13 +52,13 @@ const Experience = () => {
               <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id2")}>
               <div className="flex flex-col justify-start items-start">
                     <span>
-                        Callstack
+                        {data.id2?.company || "not found."}
                     </span>
                     <h3>
-                        Head of Technology
+                        {data.id2?.title || "not found."}
                     </h3>
                     <span className="opacity-[0.4]">
-                        Oct 2019 - Jan 2022
+                        {data.id2?.period || "not found."}
                     </span>
                 </div>
                 <ArrowRightIcon className="text-white h-[30px]" />
@@ -68,13 +68,13 @@ const Experience = () => {
               <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id3")}>
               <div className="flex flex-col justify-start items-start">
                     <span>
-                        Callstack
+                        {data.id3?.company || "not found."}
                     </span>
                     <h3>
-                        Head of Technology
+                        {data.id3?.title || "not found."}
                     </h3>
                     <span className="opacity-[0.4]">
-                        Oct 2019 - Jan 2022
+                        {data.id3?.period || "not found."}
                     </span>
                 </div>
                 <ArrowRightIcon className="text-white h-[30px]" />
@@ -84,13 +84,13 @@ const Experience = () => {
               <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id4")}>
               <div className="flex flex-col justify-start items-start">
                     <span>
-                        Callstack
+                        {data.id4?.company || "not found."}
                     </span>
                     <h3>
-                        Head of Technology
+                        {data.id4?.title || "not found."}
                     </h3>
                     <span className="opacity-[0.4]">
-                        Oct 2019 - Jan 2022
+                        {data.id4?.period || "not found."}
                     </span>
                 </div>
                 <ArrowRightIcon className="text-white h-[30px]" />
