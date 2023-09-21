@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import Performance from "./pages/Performance";
 import Experience from "./pages/Experience";
 import Education from "./pages/Education";
+import Questions from "./pages/Questions";
 import { useAppContext } from "./context/AppContext";
 
 function App() {
@@ -43,10 +44,11 @@ function App() {
         <main>
           <Landing />
           <Introduction />
-          <Projects />
-          <Performance />
           <Experience />
           <Education />
+          <Performance />
+          <Projects />
+          <Questions />
           <Contact />
           <Footer />
         </main>
