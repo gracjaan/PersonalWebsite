@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Logo from "../assets/projects.webp";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import Modal from "../components/Modal";
-import data from "../data/data.json";
+import data from "../data/projects/data.json";
 
 const Projects = () => {
   const [openModal, setOpenModal] = useState("");
