@@ -68,17 +68,4 @@
   .noscrollbar::-webkit-scrollbar {
     display: none;
   }
-
-.rmt {
-  opacity: 0;
-  max-height: 0;
-  font-size: 0;
-  transition: 2s ease;
-}
-
-.rmtc {
-  opacity: 1;
-  font-size: inherit;
-  max-height: 999em;
-}
 }
