@@ -68,11 +68,11 @@ const ModalExperience = ({ openModal, setOpenModal }) => {
         </button>
         <div className="flex flex-col mt-5 pb-10 overflow-y-auto noscrollbar" id="scrollable">
           <h2 className="pb-10">
-            {projectData.company}
+            {projectData.title}
           </h2>
           <div className="flex flex-col mt-5 gap-[10px]">
             <h3>
-              {projectData.title}
+              {projectData.company}
             </h3>
             <h5>
                 {projectData.period}
