@@ -1,32 +1,32 @@
 {
     "id0": {
-        "company": "EarnIT",
-        "title": "Full-stack Developer",
-        "period": "Apr 2023 - Jul 2023",
+        "company": "styll.",
+        "title": "Founder",
+        "period": "Feb 2022 - Present",
         "description": "description"
     },
     "id1": {
+        "company": "EarnIT",
+        "title": "Full Stack Developer",
+        "period": "Apr 2023 - Jul 2023",
+        "description": "description"
+    },
+    "id2": {
         "company": "Dr Irena Eris",
         "title": "IT Help Desk",
         "period": "Feb 2022 - Mar 2022",
         "description": "description"
     },
-    "id2": {
+    "id3": {
         "company": "Belvedere",
         "title": "Waiter",
         "period": "Jun 2021 - Sep 2021",
         "description": "description"
     },
-    "id3": {
+    "id4": {
         "company": "Dr Irena Eris",
         "title": "Waiter",
         "period": "Jun 2020 - Sep 2020",
-        "description": "description"
-    },
-    "id4": {
-        "company": "Wawa Wake",
-        "title": "Waiter",
-        "period": "Jun 2019 - Sep 2019",
         "description": "description"
     },
     "default": {
