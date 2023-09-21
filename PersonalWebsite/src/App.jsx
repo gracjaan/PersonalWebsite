@@ -6,6 +6,7 @@ import Projects from "./pages/Projects";
 import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
 import Performance from "./pages/Performance";
+import Experience from "./pages/Experience";
 import { useAppContext } from "./context/AppContext";
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
           <Introduction />
           <Projects />
           <Performance />
+          <Experience />
           <Contact />
           <Footer />
         </main>
