@@ -8,7 +8,6 @@ import svg2 from "../assets/elipse-violet.svg";
 
 const Experience = () => {
   const [openModal, setOpenModal] = useState("");
-  const [showMore, setShowMore] = useState(false); 
 
   return (
     <section className="mt-[320px] px-10 lg:px-20 2xl:px-40 relative" id="experience">
@@ -105,8 +104,8 @@ const Experience = () => {
       <div className="absolute top-0 bottom-0 left-0 right-0 z-10">
         {/* <img src={svg1} className="absolute top-0 left-0 w-[100px] h-[100px] 2xl:w-[200px] 2xl:h-[200px] transform translate-x-[-50%] translate-y-[-50%] 2xl:translate-x-[-25%] 2xl:translate-y-[-25%]" alt="svg1" />
         <img src={svg2} className="absolute bottom-0 right-0 w-[100px] h-[100px] 2xl:w-[200px] 2xl:h-[200px] transform translate-x-[-50%] translate-y-[-50%] 2xl:translate-x-[25%] 2xl:translate-y-[25%]" alt="svg2" /> */}
-        <img src={svg1} className="absolute bottom-[-70%] right-[10%] w-[600px] h-[600px]" alt="svg1" />
-        <img src={svg2} className="absolute bottom-[-70%] right-0 w-[1000px] h-[1000px] translate-x-[30%]" alt="svg2" />
+        <img src={svg1} className="absolute bottom-[-60%] right-[10%] w-[800px] h-[800px]" alt="svg1" draggable="false"/>
+        <img src={svg2} className="absolute bottom-[-40%] right-0 w-[1000px] h-[1000px] translate-x-[30%]" alt="svg2" draggable="false" />
       </div>
     </section>
   );
