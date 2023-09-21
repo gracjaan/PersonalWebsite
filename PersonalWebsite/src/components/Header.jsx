@@ -9,7 +9,8 @@ const Header = () => {
   const { isBackgroundBlack } = useAppContext();
 
   return (
-    <header className={`py-5 px-10 xl:py-10 xl:px-20 fixed top-0 left-0 right-0 flex justify-between items-center h-[92px] xl:h-[132px] max-w-[1920px] mx-auto z-30 transition-all ease-in duration-300 ${isBackgroundBlack ? "bg-primary" : "bg-quaternary"}`}>
+    <header className={`py-5 px-10 xl:py-10 xl:px-20 fixed top-0 left-0 right-0 h-[92px] xl:h-[132px] z-30 transition-all ease-in duration-300 ${isBackgroundBlack ? "bg-primary" : "bg-quaternary"}`}>
+    <div className={`flex justify-between items-center max-w-[1920px] mx-auto transition-all ease-in duration-300`}>
       <div className="flex flex-col xl:flex-row xl:gap-5 justify-between xl:items-center">
         <span>Gracjan Chmielnicki</span>
         <span className="text-sm xl:text-lg text-secondary/[.6]">
@@ -41,6 +42,7 @@ const Header = () => {
         </button>
       </nav>
       <NavigationModal openModal={openModal} setOpenModal={setOpenModal} />
+    </div>
     </header>
   );
 };
