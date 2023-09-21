@@ -23,7 +23,7 @@ const Contact = () => {
 
   return (
     <section
-      className="mt-[240px] 2xl:mt-[320px] px-10 lg:px-20 2xl:px-40 flex flex-col xl:flex-row"
+      className="mt-[240px] 2xl:mt-[320px] px-5 sm:px-10 lg:px-20 2xl:px-40 flex flex-col xl:flex-row transition-all ease-in"
       id="contact"
     >
       <div className="flex flex-col flex-1 2xl:max-w-[45%]">

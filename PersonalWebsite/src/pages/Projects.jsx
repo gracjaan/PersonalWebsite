@@ -9,7 +9,7 @@ const Projects = () => {
   const [showMore, setShowMore] = useState(false); 
 
   return (
-    <section className="mt-[240px] 2xl:mt-[320px] px-10 lg:px-20 2xl:px-40" id="projects">
+    <section className="mt-[240px] 2xl:mt-[320px] px-5 sm:px-10 lg:px-20 2xl:px-40 transition-all ease-in" id="projects">
       <h2 className="text-white text-7xl font-normal leading-[70px] mb-10">
         Projects
       </h2>

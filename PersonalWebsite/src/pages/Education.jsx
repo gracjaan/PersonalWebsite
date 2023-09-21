@@ -6,7 +6,7 @@ import data from "../data/experience/data.json";
 
 const Education = () => {
   return (
-    <section className="mt-[240px] 2xl:mt-[320px] px-10 lg:px-20 2xl:px-40 relative" id="education">
+    <section className="mt-[240px] 2xl:mt-[320px] px-5 sm:px-10 lg:px-20 2xl:px-40 relative transition-all ease-in" id="education">
       <div className="flex flex-col 2xl:flex-row">
         <div className="flex flex-1 justify-start items-start">
           <h2>Education</h2>

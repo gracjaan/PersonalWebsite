@@ -10,7 +10,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="px-10 lg:px-20 2xl:px-40 transition-all ease-in duration-300">
+    <footer className="px-5 sm:px-10 lg:px-20 2xl:px-40 transition-all ease-in duration-300">
       <div className="flex flex-row my-10 gap-10">
         <button onClick={() => redirectToSocialMedia(linkedinURL)}>
           <span>LinkedIn</span>
