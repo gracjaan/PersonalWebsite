@@ -62,7 +62,7 @@ const Modal = ({ openModal, setOpenModal }) => {
   return (
     <>
       <div id="modal-overlay2" className="fixed top-0 left-0 w-full h-full bg-black/[.6] z-40 hidden" onClick={() => hideModal()}/>
-      <div className="bg-quaternary px-[120px] pt-20 fixed bottom-0 left-0 2xl:left-[50%] right-0 top-[92px] xl:top-[132px] 2xl:top-0 flex flex-col hidden z-50 rounded-t-3xl 2xl:rounded-none" id="modal2">
+      <div className="bg-quaternary px-[20px] md:px-[80px] lg:px-[120px] pt-[40px] lg:pt-[80px] fixed bottom-0 left-0 2xl:left-[50%] right-0 top-[92px] xl:top-[132px] 2xl:top-0 flex flex-col hidden z-50 rounded-t-3xl 2xl:rounded-none" id="modal2">
         <button className="self-end" onClick={() => hideModal()}>
           <XMarkIcon className="h-8 w-8 text-white" />
         </button>
