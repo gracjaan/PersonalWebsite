@@ -25,7 +25,7 @@ const Landing = () => {
             with me!
           </h1>
         </div>
-        <OvalButton text="Get in touch" />
+        <OvalButton text="Download resume" />
       </div>
       <div className="hidden 2xl:block px-40 mt-10 mb-[120px]">
         <ArrowDownIcon className="h-24 text-tertiary animate-bounce" />
