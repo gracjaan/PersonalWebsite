@@ -25,7 +25,9 @@ const Landing = () => {
             with me!
           </h1>
         </div>
-        <OvalButton text="Download resume" />
+        <a className="w-fit text-white text-lg leading-8 hover:text-primary transition ease-in hidden md:block border border-secondary rounded-full px-8 py-4 hover:bg-secondary" href="/resume.pdf" download={true}>
+          Download resume
+        </a>
       </div>
       <div className="hidden 2xl:block px-40 mt-10 mb-[120px]">
         <ArrowDownIcon className="h-24 text-tertiary animate-bounce" />
