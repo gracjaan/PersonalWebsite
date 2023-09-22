@@ -2,32 +2,54 @@
     "id0": {
         "company": "styll.",
         "title": "Founder",
-        "period": "Feb 2022 - Present",
-        "description": "description"
+        "period": "Feb 2022 - Present | Part time",
+        "description": [
+            "Conceptualized and founded the app 'styll.' to address the common problem of finding fashion items seen on social media platforms.",
+            "Conducted extensive market research to understand the fashion industry's current trends, consumer behaviors, and pain points, identifying a gap in the market for the app.",
+            "Developed a comprehensive business plan outlining the app's mission, vision, and long-term objectives, including revenue models and growth strategies.",
+            "Explored various funding options, such as seeking investors, applying for grants, or bootstrapping, to secure the necessary capital for app development and marketing.",
+            "Actively sought and incorporated user feedback and suggestions to enhance the app's functionality and user experience.",
+            "Ensured compliance with legal and regulatory requirements, including data privacy and intellectual property rights.",
+            "Fostered a sense of community among early users and engaged with them through social media, forums, and events."
+        ]
     },
     "id1": {
         "company": "EarnIT",
         "title": "Full Stack Developer",
-        "period": "Apr 2023 - Jul 2023",
-        "description": "description"
+        "period": "Apr 2023 - Jul 2023 | Full time",
+        "description": [
+            "Collaborated with cross-functional teams to gather and analyze requirements, translating them into technical specifications and system architecture.",
+            "Contributed to the design and development of a responsive and user-friendly web application that met the needs of students, companies, and staff.",
+            "Employed front-end development skills to create visually appealing and intuitive user interfaces for the application's various dashboards.",
+            "Utilized back-end web development techniques to build robust and scalable features, ensuring the platform's reliability and performance.",
+            "Actively participated in code reviews, debugging sessions, and testing procedures to maintain code quality and minimize defects.",
+            "Implemented user authentication and data input validation mechanisms to enhance system security and data integrity.",
+            "Created a robust notification system to keep users informed about important updates, tasks, and requests within the platform."
+        ]
     },
     "id2": {
         "company": "Dr Irena Eris",
         "title": "IT Help Desk",
-        "period": "Feb 2022 - Mar 2022",
-        "description": "description"
+        "period": "Feb 2022 - Mar 2022 | Full time",
+        "description": [
+            "Monitored the IT help desk ticketing system, prioritized support requests, and ensured timely resolution of issues within established service level agreements (SLAs). Assisted in the implementation of security protocols and data protection measures to safeguard company information.", 
+            "Participated in the evaluation and testing of new software and hardware solutions to improve IT infrastructure and user experience.", 
+            "Collaborated with cross-functional teams to address complex technical issues and escalated problems to higher-level support when necessary.",
+            "Maintained accurate and up-to-date records of hardware and software inventory, making recommendations for upgrades or replacements as needed.",
+            "Conducted regular system and software audits to ensure compliance with company policies and licensing agreements."
+        ]
     },
     "id3": {
         "company": "Belvedere",
         "title": "Waiter",
-        "period": "Jun 2021 - Sep 2021",
-        "description": "description"
+        "period": "Jun 2021 - Sep 2021 | Full time",
+        "description": ["description"]
     },
     "id4": {
         "company": "Dr Irena Eris",
         "title": "Waiter",
-        "period": "Jun 2020 - Sep 2020",
-        "description": "description"
+        "period": "Jun 2020 - Sep 2020 | Full time",
+        "description": ["description"]
     },
     "default": {
         "company": "could not find resource.",
