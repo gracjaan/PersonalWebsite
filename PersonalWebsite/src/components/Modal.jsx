@@ -80,15 +80,39 @@ const Modal = ({ openModal, setOpenModal }) => {
                 ))}
             </div>
             {projectData.media && projectData.media.length > 0 && (
-            <div className="flex flex-row w-full overflow-x-scroll noscrollbar gap-2">
+            <div className="flex flex-row w-full overflow-x-scroll noscrollbar gap-2 mt-10">
                 {projectData.media.map((image, index) => (
-                  <img key={index} src={"/favicon.ico"} className="w-[300px] h-[200px] object-cover rounded-xl" />
+                  <img key={index} src={image} className="max-h-[300px] object-cover rounded-xl" />
                 ))}
             </div>
             )}
-            <span className="text-justify">
+            {projectData.videos && projectData.videos.length > 0 && (
+            <div className="flex flex-row w-full overflow-x-scroll noscrollbar gap-2 mt-10">
+                {projectData.videos.map((video, index) => (
+                  <video key={index} src={video} className="max-h-[300px] object-cover rounded-xl" controls autoPlay={true}/>
+                ))}
+            </div>
+            )}
+            <span className="text-justify mt-10">
               {projectData.message}
             </span>
+            <div className="flex flex-row gap-5 mt-20">
+              {projectData.links?.github ? (
+                <a href={projectData.links.github} target="_blank" rel="noreferrer" className="flex flex-row items-center gap-2">
+                  <span>GitHub</span>
+                </a>
+              ) : null}
+              {projectData.links?.appstore ? (
+                <a href={projectData.links.appstore} target="_blank" rel="noreferrer" className="flex flex-row items-center gap-2">
+                  <span>App Store</span>
+                </a>
+              ) : null}
+              {projectData.links?.website ? (
+                <a href={projectData.links.website} target="_blank" rel="noreferrer" className="flex flex-row items-center gap-2">
+                  <span>Website</span>
+                </a>
+              ) : null}
+            </div>
           </div>
         </div>
       </div>
