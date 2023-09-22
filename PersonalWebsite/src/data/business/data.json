@@ -1,0 +1,37 @@
+{
+    "id0": {
+        "name": "Founding mobile app",
+        "company": "styll.",
+        "period": "Feb 2023 - Present",
+        "message": "I conceptualized and founded the app 'styll.' to address the common challenge of discovering fashion items showcased on social media platforms. Through extensive market research, I gained insights into current fashion trends, consumer behaviors, and pain points, which revealed a gap in the market for our app. To ensure its success, I crafted a comprehensive business plan that outlined our mission, vision, revenue models, and growth strategies. We explored various funding options, including seeking investors, applying for grants, and bootstrapping, to secure the necessary capital for app development and marketing. Additionally, we actively incorporated user feedback to improve the app's functionality and user experience, while also ensuring strict compliance with legal and regulatory requirements, including data privacy and intellectual property rights. To build a thriving user community, we fostered engagement through social media, forums, and events, creating a sense of belonging among early users."
+    },
+    "id1": {
+        "name": "Business Plan",
+        "company": "Kalinowskie Pola Golfowe",
+        "period": "May 2023 - Jul 2023",
+        "message": "I assumed the role of creating a comprehensive business plan for a golf course in Kalinowskie Góry, Poland. My responsibilities involved conducting extensive research in two key areas: the Polish golf market and the hospitality industry. For the golf market, I examined trends, competitors, and growth opportunities, gathering data on golf enthusiasts and their spending habits. Simultaneously, I explored the hospitality sector, analyzing tourism trends, customer preferences, and competitor services. The result was a meticulously designed business plan that integrated golf and hospitality seamlessly, grounded in data-driven insights and tailored to the local market, setting the stage for a successful venture in Kalinowskie Góry."
+    },
+    "id2": {
+        "name": "Business Intelligence",
+        "company": "Insurance Company",
+        "period": "Feb 2023 - May 2023",
+        "message": "As a team of 4, we played a role of consulting agency. The key objective of this project was to provide helpful insights to insurance companies for their premium calculation, risk assessment and product innovation in the field of natural disasters. We achieved it by identfying KPIs that we later visualized in a form of interactive dashboard. To do so, we facilitated Tableau and the database that we created in SQL with the use of FEMA data."
+    },
+    "id3": {
+        "name": "Business Process Management",
+        "company": "Dialog Telekom GmbH",
+        "period": "Feb 2023 - May 2023",
+        "message": "As a group of 5, we were hired as Business Analysts. Over the course of this project, we have analyzed the business processes of the Dialog Telekom’s helpdesk in detail, resulting in the development of a ticketing system to automate and improve these processes. The app improves and automates the tasks of the helpdesk and its coordination with the technical service and external parties on various levels."
+    },
+    "id4": {
+        "name": "Consulting",
+        "company": "Picco Melodioso",
+        "period": "May 2023 - Jul 2023",
+        "message": "As a group of 6, we were hired as consultancy team. The amusement park 'Picco Melodioso' reached out to us with a huge problem. Namely, they were not satisfied with the revenue of the past years. We carefully analysed the business and concluded that poor meal planning in food court might be a root of the problem. It led us to proposing a solution in a form of a mobile app that would allow customers to order food in advance. The app would also allow the park to better plan the meals and reduce food waste. After acceptance, we developed a prototype of the app and presented it to the client."
+    },
+    "default": {
+        "company": "could not find resource.",
+        "title": "Failed to load resource.",
+        "period": "#notfound #forbidden #lost"
+    }
+}
