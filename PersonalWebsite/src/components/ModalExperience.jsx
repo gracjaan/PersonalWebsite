@@ -77,9 +77,15 @@ const ModalExperience = ({ openModal, setOpenModal }) => {
             <h5>
                 {projectData.period}
             </h5>
-            <span className="text-justify">
-              {projectData.description}
-            </span>
+            {projectData.description && projectData.description.length > 0 && (
+            <ul className="list-disc text-white mt-[60px]">
+                {projectData.description.map((bullet, index) => (
+                  <li key={index} className="ml-5"> 
+                    <span key={index}>{bullet}</span>
+                  </li>
+                ))}
+            </ul>
+            )}
           </div>
         </div>
       </div>
