@@ -17,9 +17,9 @@ const Experience = () => {
         </div>
         <div className="flex flex-col flex-1 2xl:max-w-[45%] z-20">
           <ul className="mt-10 2xl:mt-0">
-            <li className="mb-5 border-b border-white/[.24]">
+            <li className="border-b border-white/[.24]">
               <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id0")}>
-                <div className="flex flex-col justify-start items-start">
+              <div className="flex flex-col justify-start items-start">
                     <span>
                         {data.id0?.company || "not found."}
                     </span>
@@ -33,7 +33,7 @@ const Experience = () => {
                 <ArrowRightIcon className="text-white h-[30px]" />
               </button>
             </li>
-            <li className="mb-5 border-b border-white/[.24]">
+            <li className="border-b border-white/[.24]">
               <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id1")}>
               <div className="flex flex-col justify-start items-start">
                     <span>
@@ -49,7 +49,7 @@ const Experience = () => {
                 <ArrowRightIcon className="text-white h-[30px]" />
               </button>
             </li>
-            <li className="mb-5 border-b border-white/[.24]">
+            <li className="border-b border-white/[.24]">
               <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id2")}>
               <div className="flex flex-col justify-start items-start">
                     <span>
@@ -65,7 +65,7 @@ const Experience = () => {
                 <ArrowRightIcon className="text-white h-[30px]" />
               </button>
             </li>
-            <li className="mb-5 border-b border-white/[.24]">
+            <li className="mt-[120px] border-b border-white/[.24]">
               <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id3")}>
               <div className="flex flex-col justify-start items-start">
                     <span>
@@ -76,22 +76,6 @@ const Experience = () => {
                     </h3>
                     <span className="opacity-[0.4]">
                         {data.id3?.period || "not found."}
-                    </span>
-                </div>
-                <ArrowRightIcon className="text-white h-[30px]" />
-              </button>
-            </li>
-            <li className="mb-5 border-b border-white/[.24]">
-              <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id4")}>
-              <div className="flex flex-col justify-start items-start">
-                    <span>
-                        {data.id4?.company || "not found."}
-                    </span>
-                    <h3>
-                        {data.id4?.title || "not found."}
-                    </h3>
-                    <span className="opacity-[0.4]">
-                        {data.id4?.period || "not found."}
                     </span>
                 </div>
                 <ArrowRightIcon className="text-white h-[30px]" />
