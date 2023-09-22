@@ -9,14 +9,14 @@ const Performance = () => {
                 <span>years of coding</span>
             </div>
             <div className="flex flex-col flex-1 justify-center items-center min-w-[360px]">
-                <h6>4.7</h6>
-                <span>average app store rating</span>
+                <h6>2</h6>
+                <span>businesses developed</span>
             </div>
         </div>
         <div className="flex flex-row flex-1 flex-wrap gap-20">
             <div className="flex flex-col flex-1 justify-center items-center min-w-[360px]">
-                <h6>2</h6>
-                <span>businesses developed</span>
+                <h6>4.7</h6>
+                <span>average app store rating</span>
             </div>
             <div className="flex flex-col flex-1 justify-center items-center min-w-[360px]">
                 <h6>2k+</h6>
