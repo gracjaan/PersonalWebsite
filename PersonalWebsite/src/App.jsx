@@ -9,6 +9,7 @@ import Performance from "./pages/Performance";
 import Experience from "./pages/Experience";
 import Education from "./pages/Education";
 import Questions from "./pages/Questions";
+import Projects2 from "./pages/Projects2";
 import { useAppContext } from "./context/AppContext";
 
 function App() {
@@ -34,7 +35,7 @@ function App() {
   useEffect(() => {
     // const sections = document.querySelectorAll("section");
     // sections.forEach((section) => observer.observe(section));
-    observer.observe(document.getElementById("projects"))
+    observer.observe(document.getElementById("projects2"))
   }, []);
 
   return (
@@ -44,10 +45,11 @@ function App() {
         <main>
           <Landing />
           <Introduction />
-          <Experience />
-          <Education />
-          <Performance />
           <Projects />
+          <Projects2 />
+          <Performance />
+          <Experience />
+          {/* <Education /> */}
           <Questions />
           <Contact />
           <Footer />
