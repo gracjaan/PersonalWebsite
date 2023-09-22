@@ -64,7 +64,7 @@ const Projects = () => {
             <li className="mb-5 border-b border-white/[.24]">
               <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id5")}>
                 <h4>
-                  {data.id1?.name || "not found."}
+                  {data.id5?.name || "not found."}
                 </h4>
                 <ArrowRightIcon className="text-white h-[30px]" />
               </button>
@@ -72,7 +72,7 @@ const Projects = () => {
             <li className="mb-5 border-b border-white/[.24]">
               <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id6")}>
                 <h4>
-                  {data.id1?.name || "not found."}
+                  {data.id6?.name || "not found."}
                 </h4>
                 <ArrowRightIcon className="text-white h-[30px]" />
               </button>
