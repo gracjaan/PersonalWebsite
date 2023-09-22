@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import Logo from "../assets/projects.webp";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
-import Modal from "../components/Modal";
+import ModalProjects from "../components/ModalProjects";
 import data from "../data/projects/data.json";
 
 const Projects = () => {
@@ -11,13 +11,10 @@ const Projects = () => {
   return (
     <section className="mt-[240px] 2xl:mt-[320px] px-5 sm:px-10 lg:px-20 2xl:px-40 transition-all ease-in" id="projects">
       <h2 className="text-white text-7xl font-normal leading-[70px] mb-10">
-        Projects
+        Coding Projects
       </h2>
       <div className="flex flex-col 2xl:flex-row">
         <div className="flex flex-col flex-1 2xl:max-w-[45%]">
-          <h4>
-            I have been coding for 5 years and I succesfully developed two businesses.
-          </h4>
           <ul className="mt-5">
             <li className="mb-5 border-b border-white/[.24]">
               <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id0")}>
@@ -92,7 +89,7 @@ const Projects = () => {
           <img src={Logo} alt="Logo" className="max-h-[620px]" />
         </div>
       </div>
-      <Modal openModal={openModal} setOpenModal={setOpenModal}/>
+      <ModalProjects openModal={openModal} setOpenModal={setOpenModal}/>
     </section>
   );
 };

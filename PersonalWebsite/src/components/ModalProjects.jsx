@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { XMarkIcon } from "@heroicons/react/24/solid";
 import data from "../data/projects/data.json";
 
-const Modal = ({ openModal, setOpenModal }) => {
+const ModalProjects = ({ openModal, setOpenModal }) => {
 
   const projectData = data[openModal] || data["default"];
 
@@ -13,7 +13,7 @@ const Modal = ({ openModal, setOpenModal }) => {
   }, [openModal]);
 
   const showModal = () => {
-    const modal = document.getElementById("modal2");
+    const modal = document.getElementById("modalprojects");
     modal.classList.remove("hidden");
     modal.classList.remove("animate-slideDown2");
     modal.classList.remove("animate-slideRight2");
@@ -26,14 +26,14 @@ const Modal = ({ openModal, setOpenModal }) => {
 
     document.body.style.overflow = "hidden";
 
-    const overlay = document.getElementById("modal-overlay2");
+    const overlay = document.getElementById("modalprojects-overlay");
     overlay.classList.remove("hidden");
     overlay.classList.remove("animate-fadeOut");
     overlay.classList.add("animate-fadeIn");
   };
 
   const hideModal = () => {
-    const modal = document.getElementById("modal2");
+    const modal = document.getElementById("modalprojects");
     modal.classList.remove("animate-slideUp2");
     modal.classList.remove("animate-slideLeft2");
 
@@ -49,7 +49,7 @@ const Modal = ({ openModal, setOpenModal }) => {
       modal.classList.add("hidden");
     }, { once: true });
 
-    const overlay = document.getElementById("modal-overlay2");
+    const overlay = document.getElementById("modalprojects-overlay");
     overlay.classList.remove("animate-fadeIn");
     overlay.classList.add("animate-fadeOut");
     overlay.addEventListener("animationend", () => {
@@ -61,8 +61,8 @@ const Modal = ({ openModal, setOpenModal }) => {
 
   return (
     <>
-      <div id="modal-overlay2" className="fixed top-0 left-0 w-full h-full bg-black/[.6] z-40 hidden" onClick={() => hideModal()}/>
-      <div className="bg-quaternary px-[20px] md:px-[80px] lg:px-[120px] pt-[40px] lg:pt-[80px] fixed bottom-0 left-0 2xl:left-[50%] right-0 top-[92px] xl:top-[132px] 2xl:top-0 flex flex-col hidden z-50 rounded-t-3xl 2xl:rounded-none" id="modal2">
+      <div id="modalprojects-overlay" className="fixed top-0 left-0 w-full h-full bg-black/[.6] z-40 hidden" onClick={() => hideModal()}/>
+      <div className="bg-quaternary px-[20px] md:px-[80px] lg:px-[120px] pt-[40px] lg:pt-[80px] fixed bottom-0 left-0 2xl:left-[50%] right-0 top-[92px] xl:top-[132px] 2xl:top-0 flex flex-col hidden z-50 rounded-t-3xl 2xl:rounded-none" id="modalprojects">
         <button className="self-end" onClick={() => hideModal()}>
           <XMarkIcon className="h-8 w-8 text-white" />
         </button>
@@ -120,4 +120,4 @@ const Modal = ({ openModal, setOpenModal }) => {
   );
 };
 
-export default Modal;
+export default ModalProjects;
