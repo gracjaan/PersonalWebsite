@@ -8,14 +8,106 @@
             "#notifications",
             "#geolocation"
         ],
-        "description": "A social network for developers",
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl eget ultricies ultricies, nunc nisl ultricies nunc, vitae ultricies nisl nisl vitae nisl. Nulla euismod, nisl eget ultricies ultricies, nunc nisl ultricies nunc, vitae ultricies nisl nisl vitae nisl. Nulla euismod, nisl eget ultricies ultricies, nunc nisl ultricies nunc, vitae ultricies nisl nisl vitae nisl. Nulla euismod, nisl eget ultricies ultricies, nunc nisl ultricies nunc, vitae ultricies nisl nisl vitae nisl. Nulla euismod, nisl eget ultricies ultricies, nunc nisl ultricies nunc, vitae ultricies nisl nisl vitae nisl.",
+        "description": "A social network for fashion enthusiasts.",
+        "message": "The app focuses on the fashion industry, allowing users to share their outfits and follow other users. I developed this app fully by myself with a use of React Native and Firebase starting from scratch. If I had to describe the most difficult parts of this project, it would definitely be database optimisation and notifications. I had to learn a lot about Firebase and how to use it efficiently, but I was able to decrease read operations by 60% and write operations by 40%. Moreover, I send notifications to users when someone likes their post or follows them. I used Firebase Cloud Messaging for this purpose.",
         "media": [
-            "../assets/grako.png", "../assets/grako.png", "../assets/grako.png"
+            "/styll/6.png", "/styll/7.png", "/styll/1.png", "/styll/2.png", "/styll/3.png", "/styll/4.png", "/styll/5.png"
         ],
         "links": {
-            "github": "github.com/stylll",
-            "website": "styll.herokuapp.com"
+            "github": "github.com/gracjaan/StyllWebsite.git",
+            "appstore": "styll.herokuapp.com"
+        }
+    },
+    "id1": {
+        "name": "UNO",
+        "hashtags": [
+            "#java", 
+            "#oop",
+            "#multithreading",
+            "#networksystems"
+        ],
+        "description": "Implementations of popular UNO game.",
+        "message": "For this project, me and my friend were asked to develop complex game in Java and we decided to implement UNO. We facilitated OOP for general purposes and Java WebSocket for networking. We also implemented multithreading (thread locks) to make the game more efficient. The most challenging part of this project was to implement multithreading, because we had to deeply understand game mechanics and what goes after what. However, we managed to do it and we are proud of the result.",
+        "links": {
+            "github": "https://github.com/gracjaan/UNOproject.git"
+        }
+    },
+    "id2": {
+        "name": "EarnIT platform",
+        "hashtags": [
+            "#html", 
+            "#css",
+            "#js",
+            "#java",
+            "jwt",
+            "rest",
+            "cookies"
+        ],
+        "description": "Hour submission platform for part-time employees.",
+        "message": "As a team of 6, we were asked to develop a platform for part-time employees to submit their hours. I oversaw the whole production lifecycle starting from planning, through development, to deployment. To start with, the webapp was entirely designed by me. Furthermore, I developed the front-end and back-end for student side including authentication, authorization, and data storage. The most challenging part of this project was to implement JWT authentication and authorization. However, I managed to do it and I am proud of the result.",
+        "links": {
+            "github": "github.com/stylll"
+        }
+    },
+    "id3": {
+        "name": "Tee Customizer",
+        "hashtags": [
+            "#react", 
+            "#tailwindcss",
+            "#threejs"
+        ],
+        "description": "3D product-based website.",
+        "message": "This website focuses on 3D product presentation, namely t-shirt. It starts on landing page showcasing the product. When 'Customize it' button is clicked, user is rerouted to customizable screen. There he/she can play with the t-shirt by chanigng color and texture. There is also AI tool implemented in case user seeks for inspiration. I coded this website mainly to learn threejs but it went beyond my expectations so I even developed AI feature. If I had to point out the most difficult part of this project, it would be setting up a scene in three.js - it really took me a while. Surprisngly, AI feature was not that hard to implement.",
+        "media": [
+            "/shirt/1.png", "/shirt/2.png", "/shirt/3.png"
+        ],
+        "links": {
+            "github": "https://github.com/gracjaan/WardrobeShowcase.git"
+        }
+    },
+    "id4": {
+        "name": "Rock Paper Scissors",
+        "hashtags": [
+            "#python", 
+            "#mediapipe",
+            "#google"
+        ],
+        "description": "Rock Paper Scissors game with AI.",
+        "message": "Me and my friend developed this project for high school CS classes. We used python and well known libraries to develop a game in which you can play 'Rock Paper Scissors' with computer. Before each game the user is asked what is the score to win the game.",
+        "media": [
+            "/rcs/1.png", "/rcs/2.png"
+        ],
+        "links": {
+            "github": "https://github.com/gracjaan/RockPaperScissors.git"
+        }
+    },
+    "id5": {
+        "name": "Parking Manager",
+        "hashtags": [
+            "#python", 
+            "#mediapipe",
+            "#google"
+        ],
+        "description": "Managing free parking spots.",
+        "message": "This is another project that me and my friend developed for high school CS classes. We used python and well known libraries to develop a program that manages free parking spots. It is able to detect free parking spots in real-time as we as analyse taken spots and time that one car spent on it. We used Google Maps API to show the map.",
+        "videos": [
+            "/pm/1.mov"
+        ],
+        "links": {
+            "github": "https://github.com/gracjaan/ParkingManager.git"
+        }
+    },
+    "id6": {
+        "name": "Data structures",
+        "hashtags": [
+            "#c++", 
+            "#mediapipe",
+            "#google"
+        ],
+        "description": "Implementations of sophisticated data structures.",
+        "message" : "It was a part of my univeristy project. I implemented various data structures including AVL Tree, Better Rooted Tree, Rooted Tree or Red Black Tree. However, the most challenging of them was Fenwick Tree, which took me a real while to understand and develop. After all this project gave me deep understanding of data structures and their implementation as well as visualization.",
+        "links": {
+            "github": "https://github.com/gracjaan/DataStructuresImplementation.git"
         }
     },
     "default": {
@@ -25,10 +117,6 @@
             "#forbidden",
             "#lost"
         ],
-        "description": "Failed to load resource.",
-        "links": {
-            "github": "github.com/stylll",
-            "website": "styll.herokuapp.com"
-        }
+        "description": "Failed to load resource."
     }
 }
