@@ -1,19 +1,5 @@
 {
     "id0": {
-        "company": "styll.",
-        "title": "Founder",
-        "period": "Feb 2022 - Present | Part time",
-        "description": [
-            "Conceptualized and founded the app 'styll.' to address the common problem of finding fashion items seen on social media platforms.",
-            "Conducted extensive market research to understand the fashion industry's current trends, consumer behaviors, and pain points, identifying a gap in the market for the app.",
-            "Developed a comprehensive business plan outlining the app's mission, vision, and long-term objectives, including revenue models and growth strategies.",
-            "Explored various funding options, such as seeking investors, applying for grants, or bootstrapping, to secure the necessary capital for app development and marketing.",
-            "Actively sought and incorporated user feedback and suggestions to enhance the app's functionality and user experience.",
-            "Ensured compliance with legal and regulatory requirements, including data privacy and intellectual property rights.",
-            "Fostered a sense of community among early users and engaged with them through social media, forums, and events."
-        ]
-    },
-    "id1": {
         "company": "EarnIT",
         "title": "Full Stack Developer",
         "period": "Apr 2023 - Jul 2023 | Full time",
@@ -27,7 +13,7 @@
             "Created a robust notification system to keep users informed about important updates, tasks, and requests within the platform."
         ]
     },
-    "id2": {
+    "id1": {
         "company": "Dr Irena Eris",
         "title": "IT Help Desk",
         "period": "Feb 2022 - Mar 2022 | Full time",
@@ -39,13 +25,33 @@
             "Conducted regular system and software audits to ensure compliance with company policies and licensing agreements."
         ]
     },
-    "id3": {
+    "id2": {
         "company": "Belvedere",
         "title": "Waiter",
         "period": "Jun 2021 - Sep 2021 | Full time",
         "description": ["description"]
     },
+    "id3": {
+        "company": "University of Twente",
+        "title": "Student",
+        "period": "Sep 2022 - Jun 2025",
+        "description": ["description"]
+    },
     "id4": {
+        "company": "styll.",
+        "title": "Founder",
+        "period": "Feb 2022 - Present | Part time",
+        "description": [
+            "Conceptualized and founded the app 'styll.' to address the common problem of finding fashion items seen on social media platforms.",
+            "Conducted extensive market research to understand the fashion industry's current trends, consumer behaviors, and pain points, identifying a gap in the market for the app.",
+            "Developed a comprehensive business plan outlining the app's mission, vision, and long-term objectives, including revenue models and growth strategies.",
+            "Explored various funding options, such as seeking investors, applying for grants, or bootstrapping, to secure the necessary capital for app development and marketing.",
+            "Actively sought and incorporated user feedback and suggestions to enhance the app's functionality and user experience.",
+            "Ensured compliance with legal and regulatory requirements, including data privacy and intellectual property rights.",
+            "Fostered a sense of community among early users and engaged with them through social media, forums, and events."
+        ]
+    },
+    "id5": {
         "company": "Dr Irena Eris",
         "title": "Waiter",
         "period": "Jun 2020 - Sep 2020 | Full time",
