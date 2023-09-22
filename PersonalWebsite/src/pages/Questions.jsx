@@ -16,7 +16,7 @@ const Questions = () => {
             <li className="flex flex-col cursor-pointer border-t border-white/[.24] py-10">
                 <button className="text-left cursor-pointer pt-[2px] pb-[3px] px-[6px]">
                     <div className="flex flex-row justify-between items-start">
-                        <h5 className="text-secondary">Where are you based and what's your availability during the day?</h5>
+                        <h5 className="text-secondary">What's your thing? Building apps, building businesses, or maybe something else?</h5>
                         <PlusIcon className="text-white h-[30px] ml-5" />
                     </div>
                     <div className="hidden">
@@ -38,7 +38,7 @@ const Questions = () => {
             <li className="flex flex-col cursor-pointer border-t border-white/[.24] py-10">
                 <button className="text-left cursor-pointer pt-[2px] pb-[3px] px-[6px]">
                     <div className="flex flex-row justify-between items-start">
-                        <h5 className="text-secondary">Where are you based and what's your availability during the day?</h5>
+                        <h5 className="text-secondary">What technologies do you work with?</h5>
                         <PlusIcon className="text-white h-[30px] ml-5" />
                     </div>
                     <div className="hidden">
