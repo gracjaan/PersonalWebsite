@@ -36,6 +36,7 @@ function App() {
     // const sections = document.querySelectorAll("section");
     // sections.forEach((section) => observer.observe(section));
     observer.observe(document.getElementById("projects2"))
+    observer.observe(document.getElementById("questions"))
   }, []);
 
   return (
