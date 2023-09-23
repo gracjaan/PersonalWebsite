@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { XMarkIcon } from "@heroicons/react/24/solid";
 
-const NavigationModal = ({ openModal, setOpenModal, scrollToSection, experienceRef, projectsRef }) => {
+const NavigationModal = ({ openModal, setOpenModal, scrollToSection }) => {
   useEffect(() => {
     if (openModal) {
       showModal();
@@ -42,6 +42,11 @@ const NavigationModal = ({ openModal, setOpenModal, scrollToSection, experienceR
     setOpenModal(false);
   };
 
+  const handleButton = (option) => {
+    scrollToSection(option);
+    hideModal();
+  }
+
   return (
     <>
       <div id="modal-overlay" className="fixed top-0 left-0 w-full h-full bg-black/[.6] z-40 hidden" onClick={() => hideModal()}/>
@@ -50,13 +55,13 @@ const NavigationModal = ({ openModal, setOpenModal, scrollToSection, experienceR
           <XMarkIcon className="h-8 w-8 text-white" />
         </button>
         <div className="flex flex-col items-start">
-          <button className="text-white font-medium text-2xl md:text-3xl lg:text-4xl hover:text-tertiary transition ease-in px-8 py-4 mb-5" onClick={() => scrollToSection(experienceRef)}>
+          <button className="text-white font-medium text-2xl md:text-3xl lg:text-4xl hover:text-tertiary transition ease-in px-8 py-4 mb-5" onClick={() => handleButton("experience")}>
             Experience
           </button>
           <button className="text-white font-medium text-2xl md:text-3xl lg:text-4xl hover:text-tertiary transition ease-in px-8 py-4 mb-5">
             Education
           </button>
-          <button className="text-white font-medium text-2xl md:text-3xl lg:text-4xl hover:text-tertiary transition ease-in px-8 py-4 mb-5" onClick={() => scrollToSection(projectsRef)}>
+          <button className="text-white font-medium text-2xl md:text-3xl lg:text-4xl hover:text-tertiary transition ease-in px-8 py-4 mb-5" onClick={() => handleButton("projects")}>
             Projects
           </button>
           <button className="text-white font-medium text-lg hover:text-primary hover:bg-secondary transition ease-in w-full border border-secondary rounded-full px-8 py-4">
