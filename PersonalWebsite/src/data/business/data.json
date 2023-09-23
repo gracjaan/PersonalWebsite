@@ -15,19 +15,22 @@
         "name": "Business Intelligence",
         "company": "Insurance Company",
         "period": "Feb 2023 - May 2023",
-        "message": "As a team of 4, we played a role of consulting agency. The key objective of this project was to provide helpful insights to insurance companies for their premium calculation, risk assessment and product innovation in the field of natural disasters. We achieved it by identfying KPIs that we later visualized in a form of interactive dashboard. To do so, we facilitated Tableau and the database that we created in SQL with the use of FEMA data."
+        "message": "As a team of 4, we played a role of consulting agency. The key objective of this project was to provide helpful insights to insurance companies for their premium calculation, risk assessment and product innovation in the field of natural disasters. We achieved it by identfying KPIs that we later visualized in a form of interactive dashboard. To do so, we facilitated Tableau and the database that we created in SQL with the use of FEMA data.",
+        "link": "/bi/BI.pdf"
     },
     "id3": {
         "name": "Business Process Management",
         "company": "Dialog Telekom GmbH",
         "period": "Feb 2023 - May 2023",
-        "message": "As a group of 5, we were hired as Business Analysts. Over the course of this project, we have analyzed the business processes of the Dialog Telekom’s helpdesk in detail, resulting in the development of a ticketing system to automate and improve these processes. The app improves and automates the tasks of the helpdesk and its coordination with the technical service and external parties on various levels."
+        "message": "As a group of 5, we were hired as Business Analysts. Over the course of this project, we have analyzed the business processes of the Dialog Telekom’s helpdesk in detail, resulting in the development of a ticketing system to automate and improve these processes. The app improves and automates the tasks of the helpdesk and its coordination with the technical service and external parties on various levels.",
+        "link": "/bpm/BPM.pdf"
     },
     "id4": {
         "name": "Consulting",
         "company": "Picco Melodioso",
         "period": "May 2023 - Jul 2023",
-        "message": "As a group of 6, we were hired as consultancy team. The amusement park 'Picco Melodioso' reached out to us with a huge problem. Namely, they were not satisfied with the revenue of the past years. We carefully analysed the business and concluded that poor meal planning in food court might be a root of the problem. It led us to proposing a solution in a form of a mobile app that would allow customers to order food in advance. The app would also allow the park to better plan the meals and reduce food waste. After acceptance, we developed a prototype of the app and presented it to the client."
+        "message": "As a group of 6, we were hired as consultancy team. The amusement park 'Picco Melodioso' reached out to us with a huge problem. Namely, they were not satisfied with the revenue of the past years. We carefully analysed the business and concluded that poor meal planning in food court might be a root of the problem. It led us to proposing a solution in a form of a mobile app that would allow customers to order food in advance. The app would also allow the park to better plan the meals and reduce food waste. After acceptance, we developed a prototype of the app and presented it to the client.",
+        "link": "/con/Picco Melodioso.pdf"
     },
     "default": {
         "company": "could not find resource.",
