@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { XMarkIcon } from "@heroicons/react/24/solid";
+import { XMarkIcon, ArrowTopRightOnSquareIcon, ArrowDownTrayIcon } from "@heroicons/react/24/solid";
 import data from "../data/business/data.json";
 
 const ModalProjects2 = ({ openModal, setOpenModal }) => {
@@ -81,6 +81,22 @@ const ModalProjects2 = ({ openModal, setOpenModal }) => {
             <span className="text-justify mt-10">
               {projectData.message}
             </span>
+            {projectData.link && (
+              <>
+                <div className="flex flex-row gap-2 mt-10 items-center">
+                  <a className="font-ar text-secondary text-lg leading-8 underline" href={projectData.link} target="_blank" rel="noopener noreferrer">
+                      Link
+                  </a>
+                  <ArrowTopRightOnSquareIcon className="h-5 w-5 text-secondary" />
+                </div>
+                <div className="flex flex-row gap-2 items-center">
+                  <a className="font-ar text-secondary text-lg leading-8 underline" href={projectData.link} target="_blank" rel="noopener noreferrer">
+                      Download
+                  </a>
+                  <ArrowDownTrayIcon className="h-5 w-5 text-secondary" />
+                </div>
+            </>
+            )}
           </div>
         </div>
       </div>
