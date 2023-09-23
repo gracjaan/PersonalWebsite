@@ -8,15 +8,22 @@ const Header = ({scrollToSection}) => {
   const [openModal, setOpenModal] = useState(false);
   const { isBackgroundBlack } = useAppContext();
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
+
   return (
     <header className={`fixed top-0 left-0 right-0 z-30 transition-all ease-in duration-300 ${isBackgroundBlack ? "bg-primary" : "bg-quaternary"}`}>
     <div className={`flex justify-between items-center py-5 px-5 sm:px-10 xl:py-10 xl:px-20 h-[92px] xl:h-[132px] max-w-[1920px] mx-auto transition-all ease-in duration-300`}>
-      <div className="flex flex-col xl:flex-row xl:gap-5 justify-between xl:items-center">
+      <button className="flex flex-col xl:flex-row xl:gap-5 justify-between xl:items-center" onClick={() => scrollToTop()}>
         <span>Gracjan Chmielnicki</span>
         <span className="text-sm xl:text-lg text-secondary/[.6]">
           Full Stack Developer
         </span>
-      </div>
+      </button>
       <nav className="flex justify-between items-center gap-8">
         <button onClick={() => scrollToSection("experience")}>
           <span className="hover:text-tertiary transition ease-in hidden xl:block">
