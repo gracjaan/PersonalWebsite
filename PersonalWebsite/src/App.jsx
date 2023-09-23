@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Landing from "./pages/Landing";
 import Header from "./components/Header";
 import Introduction from "./pages/Introduction";
@@ -33,23 +33,38 @@ function App() {
   );
 
   useEffect(() => {
-    // const sections = document.querySelectorAll("section");
-    // sections.forEach((section) => observer.observe(section));
     observer.observe(document.getElementById("projects2"))
     observer.observe(document.getElementById("questions"))
   }, []);
 
+  const projectsRef = useRef(null);
+  const experienceRef = useRef(null);
+
+  const scrollToSection = (elementsRef) => {
+    const section = elementsRef.current;
+    if (section) {
+      const windowHeight = window.innerHeight;
+      const sectionHeight = section.clientHeight;
+      const scrollPosition = section.offsetTop - (windowHeight - sectionHeight) / 2;
+      
+      window.scrollTo({
+        top: scrollPosition,
+        behavior: "smooth"
+      });
+    }
+  }
+
   return (
     <div className={`w-full ${isBackgroundBlack ? "bg-primary" : "bg-quaternary"} transition ease-in duration-300 overflow-x-hidden`}>
       <div className="max-w-[1920px] mx-auto">
-        <Header />
+        <Header scrollToSection={scrollToSection} projectsRef={projectsRef} experienceRef={experienceRef}/>
         <main>
           <Landing />
           <Introduction />
-          <Projects />
+          <Projects r={projectsRef}/>
           <Projects2 />
           <Performance />
-          <Experience />
+          <Experience r={experienceRef}/>
           {/* <Education /> */}
           <Questions />
           <Contact />
