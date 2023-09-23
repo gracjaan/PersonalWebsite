@@ -20,7 +20,7 @@ const Questions = () => {
                         <PlusIcon className="text-white h-[30px] ml-5" />
                     </div>
                     <div className="hidden">
-                        <p>I am based in Warsaw, Poland (GMT+1) and I am available from 9:00 to 21:00.</p>
+                        <p>It is the mix of both. I incredibly enjoy software development since early days of high school. On the other hand, I always had entrepreneurial mind that always wants to exceed in this area.</p>
                     </div>
                 </button>
             </li>
@@ -31,7 +31,7 @@ const Questions = () => {
                         <PlusIcon className="text-white h-[30px] ml-5" />
                     </div>
                     <div className="hidden">
-                        <p>I am based in Warsaw, Poland (GMT+1) and I am available from 9:00 to 21:00.</p>
+                        <p>I am based in Enschede, NL (CET time zone). However, I often visit Warsaw, PL. Moreover, I am more than willing to relocate. When it comes to availability, I can work between 20 and 40 hours a week.</p>
                     </div>
                 </button>
             </li>
@@ -42,7 +42,7 @@ const Questions = () => {
                         <PlusIcon className="text-white h-[30px] ml-5" />
                     </div>
                     <div className="hidden">
-                        <p>I am based in Warsaw, Poland (GMT+1) and I am available from 9:00 to 21:00.</p>
+                        <p>I use variety of technologies for different purposes. I'm definitely profficient in HTML/CSS/JS and React/ReactNative. I also have experience in building back-end systems in JAVA. When it comes to business software, I have certified profficiency in MS Office and Tableau. </p>
                     </div>
                 </button>
             </li>
