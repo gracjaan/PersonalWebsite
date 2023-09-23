@@ -5,7 +5,6 @@ import data from "../data/business/data.json";
 const ModalProjects2 = ({ openModal, setOpenModal }) => {
 
   const projectData = data[openModal] || data["default"];
-  console.log(projectData.name);
 
   useEffect(() => {
     if (openModal !== "") {
