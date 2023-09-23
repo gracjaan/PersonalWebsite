@@ -7,9 +7,9 @@ import data from "../data/experience/data.json";
 const Questions = () => {
 
   const handleButton = (id) => {
-    const answer = document.getElementById(id);
+    const extend = document.getElementById(id);
     const listelement = document.getElementById(id + "0");
-    answer.classList.toggle("show");
+    extend.classList.toggle("show");
     listelement.classList.toggle("border-white/[.24]");
     listelement.classList.toggle("border-white");
   }
@@ -28,7 +28,7 @@ const Questions = () => {
                         <h5 className="text-secondary">What's your thing? Building apps, building businesses, or maybe something else?</h5>
                         <PlusIcon className="text-white h-[30px] ml-5" />
                     </div>
-                    <div className="answer" id="a0">
+                    <div className="extend" id="a0">
                         <span className="mt-5">It is the mix of both. I incredibly enjoy software development since early days of high school. On the other hand, I always had entrepreneurial mind that always wants to exceed in this area.</span>
                     </div>
                 </button>
@@ -39,7 +39,7 @@ const Questions = () => {
                         <h5 className="text-secondary">Where are you based and what's your availability during the day?</h5>
                         <PlusIcon className="text-white h-[30px] ml-5" />
                     </div>
-                    <div className="answer" id="a1">
+                    <div className="extend" id="a1">
                         <span className="mt-5">I am based in Enschede, NL (CET time zone). However, I often visit Warsaw, PL. Moreover, I am more than willing to relocate. When it comes to availability, I can work between 20 and 40 hours a week.</span>
                     </div>
                 </button>
@@ -50,7 +50,7 @@ const Questions = () => {
                         <h5 className="text-secondary">What technologies do you work with?</h5>
                         <PlusIcon className="text-white h-[30px] ml-5" />
                     </div>
-                    <div className="answer" id="a2">
+                    <div className="extend" id="a2">
                         <span className="mt-5">I use variety of technologies for different purposes. I'm definitely profficient in HTML/CSS/JS and React/ReactNative. I also have experience in building back-end systems in JAVA. When it comes to business software, I have certified profficiency in MS Office and Tableau. </span>
                     </div>
                 </button>

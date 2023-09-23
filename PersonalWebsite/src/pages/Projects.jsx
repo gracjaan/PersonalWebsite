@@ -63,7 +63,7 @@ const Projects = ({r}) => {
               </button>
             </li>
           </ul>
-          <ul className={"answer"} id="hiddenprojects">
+          <ul className={"extend"} id="hiddenprojects">
             <div>
               <li className="mb-5 border-b border-white/[.24]">
                 <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id5")}>
