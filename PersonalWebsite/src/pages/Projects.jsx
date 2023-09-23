@@ -8,6 +8,12 @@ const Projects = ({r}) => {
   const [openModal, setOpenModal] = useState("");
   const [showMore, setShowMore] = useState(false); 
 
+  const handleShowMore = () => {
+    const hiddenprojects = document.getElementById("hiddenprojects");
+    hiddenprojects.classList.toggle("show");
+    setShowMore(true);
+  }
+
   return (
     <section className="mt-[240px] 2xl:mt-[320px] px-5 sm:px-10 lg:px-20 2xl:px-40 transition-all ease-in" id="projects" ref={r}>
       <h2>
@@ -57,29 +63,31 @@ const Projects = ({r}) => {
               </button>
             </li>
           </ul>
-          <ul className={showMore ? "" : "hidden"} id="hiddenprojects">
-            <li className="mb-5 border-b border-white/[.24]">
-              <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id5")}>
-                <h4>
-                  {data.id5?.name || "not found."}
-                </h4>
-                <ArrowRightIcon className="text-white h-[30px]" />
-              </button>
-            </li>
-            <li className="mb-5 border-b border-white/[.24]">
-              <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id6")}>
-                <h4>
-                  {data.id6?.name || "not found."}
-                </h4>
-                <ArrowRightIcon className="text-white h-[30px]" />
-              </button>
-            </li>
+          <ul className={"answer"} id="hiddenprojects">
+            <div>
+              <li className="mb-5 border-b border-white/[.24]">
+                <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id5")}>
+                  <h4>
+                    {data.id5?.name || "not found."}
+                  </h4>
+                  <ArrowRightIcon className="text-white h-[30px]" />
+                </button>
+              </li>
+              <li className="mb-5 border-b border-white/[.24]">
+                <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id6")}>
+                  <h4>
+                    {data.id6?.name || "not found."}
+                  </h4>
+                  <ArrowRightIcon className="text-white h-[30px]" />
+                </button>
+              </li>
+            </div>
           </ul>
           {showMore || ( 
             <button
               className="text-white text-lg leading-8 hover:text-primary transition ease-in md:block border border-secondary rounded-full px-8 py-4 hover:bg-secondary self-start mt-5"
               id="showmorebutton"
-              onClick={() => setShowMore(true)}
+              onClick={() => handleShowMore()}
             >
               Show more projects
             </button>
