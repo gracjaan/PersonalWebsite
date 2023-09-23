@@ -38,6 +38,7 @@ function App() {
 
   const projectsRef = useRef(null);
   const experienceRef = useRef(null);
+  const contactRef = useRef(null);
 
   const scrollToSection = (option) => {
     
@@ -68,7 +69,7 @@ function App() {
           <Performance />
           <Experience r={experienceRef}/>
           <Questions />
-          <Contact />
+          <Contact r={contactRef}/>
           <Footer />
         </main>
       </div>

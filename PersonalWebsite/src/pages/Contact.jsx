@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../assets/contact.webp";
 import OvalButton from "../components/OvalButton";
 
-const Contact = () => {
+const Contact = ({r}) => {
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -25,6 +25,7 @@ const Contact = () => {
     <section
       className="mt-[240px] 2xl:mt-[320px] px-5 sm:px-10 lg:px-20 2xl:px-40 flex flex-col xl:flex-row transition-all ease-in"
       id="contact"
+      ref={r}
     >
       <div className="flex flex-col flex-1 2xl:max-w-[45%]">
         <h2 className="text-white text-7xl font-normal">Contact</h2>
