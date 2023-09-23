@@ -40,8 +40,10 @@ function App() {
   const projectsRef = useRef(null);
   const experienceRef = useRef(null);
 
-  const scrollToSection = (elementsRef) => {
-    const section = elementsRef.current;
+  const scrollToSection = (option) => {
+    
+    const section = document.getElementById(option);
+
     if (section) {
       const windowHeight = window.innerHeight;
       const sectionHeight = section.clientHeight;
@@ -52,12 +54,13 @@ function App() {
         behavior: "smooth"
       });
     }
+    
   }
 
   return (
     <div className={`w-full ${isBackgroundBlack ? "bg-primary" : "bg-quaternary"} transition ease-in duration-300 overflow-x-hidden`}>
       <div className="max-w-[1920px] mx-auto">
-        <Header scrollToSection={scrollToSection} projectsRef={projectsRef} experienceRef={experienceRef}/>
+        <Header scrollToSection={scrollToSection}/>
         <main>
           <Landing />
           <Introduction />
