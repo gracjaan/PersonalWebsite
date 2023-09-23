@@ -33,7 +33,9 @@ const Header = ({scrollToSection}) => {
             Projects
           </span>
         </button>
-        <OvalButton text="Get in touch" />
+        <button className="text-white text-lg leading-8 hover:text-primary transition ease-in hidden md:block border border-secondary rounded-full px-8 py-4 hover:bg-secondary" onClick={() => scrollToSection("contact")}>
+          Get in touch
+        </button>
         <button
           className="h-6 w-6 text-secondary xl:hidden"
           onClick={() => setOpenModal(true)}

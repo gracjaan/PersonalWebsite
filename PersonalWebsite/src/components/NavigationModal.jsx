@@ -64,7 +64,7 @@ const NavigationModal = ({ openModal, setOpenModal, scrollToSection }) => {
           <button className="text-white font-medium text-2xl md:text-3xl lg:text-4xl hover:text-tertiary transition ease-in px-8 py-4 mb-5" onClick={() => handleButton("projects")}>
             Projects
           </button>
-          <button className="text-white font-medium text-lg hover:text-primary hover:bg-secondary transition ease-in w-full border border-secondary rounded-full px-8 py-4">
+          <button className="text-white font-medium text-lg hover:text-primary hover:bg-secondary transition ease-in w-full border border-secondary rounded-full px-8 py-4" onClick={() => handleButton("contact")}>
             Get in touch
           </button>
         </div>
