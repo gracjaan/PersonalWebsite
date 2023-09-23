@@ -99,17 +99,17 @@ const ModalProjects = ({ openModal, setOpenModal }) => {
             <div className="flex flex-row gap-5 mt-20">
               {projectData.links?.github ? (
                 <a href={projectData.links.github} target="_blank" rel="noreferrer" className="flex flex-row items-center gap-2">
-                  <span>GitHub</span>
+                  <span className="underline">GitHub</span>
                 </a>
               ) : null}
               {projectData.links?.appstore ? (
                 <a href={projectData.links.appstore} target="_blank" rel="noreferrer" className="flex flex-row items-center gap-2">
-                  <span>App Store</span>
+                  <span className="underline">App Store</span>
                 </a>
               ) : null}
               {projectData.links?.website ? (
                 <a href={projectData.links.website} target="_blank" rel="noreferrer" className="flex flex-row items-center gap-2">
-                  <span>Website</span>
+                  <span className="underline">Website</span>
                 </a>
               ) : null}
             </div>
