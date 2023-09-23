@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
+    "@react-three/drei": "^9.84.2",
+    "@react-three/fiber": "^8.14.2",
+    "maath": "^0.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
