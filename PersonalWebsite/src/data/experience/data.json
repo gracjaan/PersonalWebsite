@@ -29,13 +29,24 @@
         "company": "Belvedere",
         "title": "Waiter",
         "period": "Jun 2021 - Sep 2021 | Full time",
-        "description": ["description"]
+        "description": [
+            "Consistently met or exceeded sales targets through upselling and suggestive selling techniques.",
+            "Demonstrated exceptional time management skills to prioritize tasks and ensure timely service.",
+            "Actively listened to customer feedback and used it to make continuous improvements in service quality",
+            "Worked closely with colleagues to ensure a seamless and coordinated service flow throughout shifts.",
+            "Adapted quickly to high-pressure situations, such as busy lunch and dinner rushes, while maintaining a calm and professional demeanor.",
+            "Resolved customer complaints and issues promptly and effectively, ensuring a positive dining experience."
+        ]
     },
     "id3": {
         "company": "University of Twente",
         "title": "Student",
         "period": "Sep 2022 - Jun 2025",
-        "description": ["description"]
+        "description": [
+            "I pursue Business and IT course which perfectly aligns with my interests. I am passionate about technology and innovation, and I am eager to learn more about the business side of the industry. I am also interested in entrepreneurship and have been working on a fashion app idea for the past year. I am looking for an opportunity to gain hands-on experience in the field and apply my knowledge and skills to real-world projects.",
+            "Received multiple awards for acdemic excellence, including certificates for best projects and highest grades in the class.",
+            "I present excellent performance with GPA 8.4/10 (4.0 US system) and I am in the top 10% of my class."
+        ]
     },
     "id4": {
         "company": "styll.",
