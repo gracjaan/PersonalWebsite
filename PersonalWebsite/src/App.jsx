@@ -7,7 +7,6 @@ import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
 import Performance from "./pages/Performance";
 import Experience from "./pages/Experience";
-import Education from "./pages/Education";
 import Questions from "./pages/Questions";
 import Projects2 from "./pages/Projects2";
 import { useAppContext } from "./context/AppContext";
@@ -54,7 +53,7 @@ function App() {
         behavior: "smooth"
       });
     }
-    
+
   }
 
   return (
@@ -68,7 +67,6 @@ function App() {
           <Projects2 />
           <Performance />
           <Experience r={experienceRef}/>
-          {/* <Education /> */}
           <Questions />
           <Contact />
           <Footer />
