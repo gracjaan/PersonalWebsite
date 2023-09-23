@@ -4,12 +4,12 @@ import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import ModalProjects from "../components/ModalProjects";
 import data from "../data/projects/data.json";
 
-const Projects = () => {
+const Projects = ({r}) => {
   const [openModal, setOpenModal] = useState("");
   const [showMore, setShowMore] = useState(false); 
 
   return (
-    <section className="mt-[240px] 2xl:mt-[320px] px-5 sm:px-10 lg:px-20 2xl:px-40 transition-all ease-in" id="projects">
+    <section className="mt-[240px] 2xl:mt-[320px] px-5 sm:px-10 lg:px-20 2xl:px-40 transition-all ease-in" id="projects" ref={r}>
       <h2>
         Coding Projects
       </h2>

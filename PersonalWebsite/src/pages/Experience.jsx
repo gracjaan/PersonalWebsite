@@ -6,11 +6,11 @@ import data from "../data/experience/data.json";
 import svg1 from "../assets/elipse-purple.svg";
 import svg2 from "../assets/elipse-violet.svg";
 
-const Experience = () => {
+const Experience = ({r}) => {
   const [openModal, setOpenModal] = useState("");
 
   return (
-    <section className="mt-[240px] 2xl:mt-[320px] px-5 sm:px-10 lg:px-20 2xl:px-40 relative transition-all ease-in" id="experience">
+    <section className="mt-[240px] 2xl:mt-[320px] px-5 sm:px-10 lg:px-20 2xl:px-40 relative transition-all ease-in" id="experience" ref={r}>
       <div className="flex flex-col 2xl:flex-row">
         <div className="flex flex-1 justify-start items-start">
           <h2>Experience</h2>
