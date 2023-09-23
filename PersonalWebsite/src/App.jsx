@@ -17,7 +17,6 @@ function App() {
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
-        console.log(entry);
         if (entry.isIntersecting) {
           setisBackgroundBlack(false);
         }
@@ -70,6 +69,7 @@ function App() {
           <Experience r={experienceRef}/>
           <Questions />
           <Contact r={contactRef}/>
+
           <Footer />
         </main>
       </div>
