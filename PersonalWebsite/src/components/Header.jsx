@@ -4,7 +4,7 @@ import NavigationModal from "../components/NavigationModal";
 import OvalButton from "./OvalButton";
 import { useAppContext } from "../context/AppContext";
 
-const Header = () => {
+const Header = ({scrollToSection, projectsRef, experienceRef}) => {
   const [openModal, setOpenModal] = useState(false);
   const { isBackgroundBlack } = useAppContext();
 
@@ -18,7 +18,7 @@ const Header = () => {
         </span>
       </div>
       <nav className="flex justify-between items-center gap-8">
-        <button>
+        <button onClick={() => scrollToSection(experienceRef)}>
           <span className="hover:text-tertiary transition ease-in hidden xl:block">
             Experience
           </span>
@@ -28,7 +28,7 @@ const Header = () => {
             Education
           </span>
         </button>
-        <button>
+        <button onClick={() => scrollToSection(projectsRef)}>
           <span className="hover:text-tertiary transition ease-in hidden xl:block">
             Projects
           </span>
@@ -41,7 +41,7 @@ const Header = () => {
           <Bars3Icon />
         </button>
       </nav>
-      <NavigationModal openModal={openModal} setOpenModal={setOpenModal} />
+      <NavigationModal openModal={openModal} setOpenModal={setOpenModal} scrollToSection={scrollToSection} experienceRef={experienceRef} projectsRef={projectsRef}/>
     </div>
     </header>
   );
