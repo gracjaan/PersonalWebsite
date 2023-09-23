@@ -68,4 +68,18 @@
   .noscrollbar::-webkit-scrollbar {
     display: none;
   }
+
+  .answer {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .answer * {
+    overflow: hidden;
+  }
+
+  .answer.show {
+    grid-template-rows: 1fr;
+  }
 }
