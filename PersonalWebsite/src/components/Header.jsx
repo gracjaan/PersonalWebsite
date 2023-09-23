@@ -23,11 +23,11 @@ const Header = ({scrollToSection}) => {
             Experience
           </span>
         </button>
-        <button>
+        {/* <button>
           <span className="hover:text-tertiary transition ease-in hidden xl:block">
             Education
           </span>
-        </button>
+        </button> */}
         <button onClick={() => scrollToSection("projects")}>
           <span className="hover:text-tertiary transition ease-in hidden xl:block">
             Projects
