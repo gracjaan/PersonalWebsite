@@ -11,7 +11,7 @@
         "description": "A social network for fashion enthusiasts.",
         "message": "The app focuses on the fashion industry, allowing users to share their outfits and follow other users. I developed this app fully by myself with a use of React Native and Firebase starting from scratch. If I had to describe the most difficult parts of this project, it would definitely be database optimisation and notifications. I had to learn a lot about Firebase and how to use it efficiently, but I was able to decrease read operations by 60% and write operations by 40%. Moreover, I send notifications to users when someone likes their post or follows them. I used Firebase Cloud Messaging for this purpose.",
         "media": [
-            "/styll/6.png", "/styll/7.png", "/styll/1.png", "/styll/2.png", "/styll/3.png", "/styll/4.png", "/styll/5.png"
+            "/PersonalWebsite/styll/6.png", "/styll/7.png", "/styll/1.png", "/styll/2.png", "/styll/3.png", "/styll/4.png", "/styll/5.png"
         ],
         "links": {
             "github": "github.com/gracjaan/StyllWebsite.git",

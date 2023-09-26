@@ -14,10 +14,6 @@ import { useAppContext } from "./context/AppContext";
 function App() {
   const { isBackgroundBlack, setisBackgroundBlack } = useAppContext();
 
-  if (window.location.pathname !== "/") {
-    window.location.pathname = "/";
-  }
-
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
