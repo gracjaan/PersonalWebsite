@@ -41,7 +41,7 @@
   }
 
   h4 {
-    @apply font-ar text-secondary text-2xl lg:text-3xl leading-[46px] lg:leading-[52px];
+    @apply font-ar text-secondary text-2xl lg:text-3xl leading-[46px] lg:leading-[52px] text-left;
   }
 
   h5 {

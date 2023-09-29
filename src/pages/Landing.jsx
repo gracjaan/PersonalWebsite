@@ -1,10 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
 import { ArrowDownIcon } from "@heroicons/react/24/solid";
 import OvalButton from "../components/OvalButton";
 import EarthCanvas from "../canvas/Earth";
 import StarsCanvas from "../canvas/Stars";
 
 const Landing = () => {
+  const [isWideScreen, setIsWideScreen] = useState(window.innerWidth > 768);
+
   return (
     <section className="pt-40 h-screen min-h-[100vh] flex flex-col justify-between relative" id="landing">
       <div className="px-5 sm:px-10 lg:px-20 2xl:px-40 transition-all ease-in duration-300 z-10">
@@ -31,15 +33,17 @@ const Landing = () => {
           Download resume
         </a>
       </div>
-      <div className="hidden 2xl:block px-40 mt-10 mb-[120px]">
+      <div className="block px-5 sm:px-10 lg:px-20 2xl:px-40 mt-10 mb-[120px]">
         <ArrowDownIcon className="h-24 text-tertiary animate-bounce" />
       </div>
-      <div className="absolute top-[500px] md:top-[400px] lg:top-[300px] xl:top-[200px] 2xl:top-[300px] right-[-100px] md:right-0 z-0 xl:z-20">
-        <div className="relative h-[700px] 2xl:h-[1000px] w-[700px] 2xl:w-[1000px] overflow-hidden rounded-full">
-          <EarthCanvas />
-          <StarsCanvas />
+      {isWideScreen && (
+        <div className="absolute top-[500px] md:top-[400px] lg:top-[300px] xl:top-[200px] 2xl:top-[300px] right-[-100px] md:right-0 z-0 xl:z-20">
+          <div className="relative h-[700px] 2xl:h-[1000px] w-[700px] 2xl:w-[1000px] overflow-hidden rounded-full">
+            <EarthCanvas />
+            <StarsCanvas />
+          </div>
         </div>
-      </div>
+      )}
     </section>
   );
 };

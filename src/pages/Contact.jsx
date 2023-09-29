@@ -53,7 +53,7 @@ const Contact = ({r}) => {
         </form>
       </div>
       <div className="flex flex-1 justify-center items-center">
-        <img src={Logo} alt="Logo" className="h-[496px]" />
+        <img src={Logo} alt="Logo" className="max-h-[496px]" />
       </div>
     </section>
   );
