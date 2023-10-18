@@ -38,7 +38,7 @@ const Landing = () => {
       </div>
       {isWideScreen && (
         <div className="absolute top-[500px] md:top-[400px] lg:top-[300px] xl:top-[200px] 2xl:top-[300px] right-[-100px] md:right-0 z-0 xl:z-20">
-          <div className="relative h-[700px] 2xl:h-[1000px] w-[700px] 2xl:w-[1000px] overflow-hidden rounded-full">
+          <div className="relative h-[700px] 2xl:h-[900px] w-[700px] 2xl:w-[900px] overflow-hidden rounded-full">
             <EarthCanvas />
             <StarsCanvas />
           </div>

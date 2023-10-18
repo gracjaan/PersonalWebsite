@@ -47,10 +47,10 @@ function App() {
       const windowHeight = window.innerHeight;
       const sectionHeight = section.clientHeight;
       const scrollPosition = section.offsetTop - (windowHeight - sectionHeight) / 2;
-      const isFullyVisible = scrollPosition >= window.scrollY && scrollPosition + sectionHeight <= window.scrollY + windowHeight;
+      const isDesktop = window.innerWidth > 1600;
       
       window.scrollTo({
-        top: isFullyVisible ? scrollPosition : section.offsetTop - 132,
+        top: isDesktop ? scrollPosition : section.offsetTop - 132,
         behavior: "smooth"
       });
     }
