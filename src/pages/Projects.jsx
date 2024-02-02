@@ -81,6 +81,14 @@ const Projects = ({r}) => {
                   <ArrowRightIcon className="text-white h-[30px]" />
                 </button>
               </li>
+              <li className="mb-5 border-b border-white/[.24]">
+                <button className="w-full p-[10px] flex flex-row justify-between items-center" onClick={() => setOpenModal("id7")}>
+                  <h4>
+                    {data.id7?.name || "not found."}
+                  </h4>
+                  <ArrowRightIcon className="text-white h-[30px]" />
+                </button>
+              </li>
             </div>
           </ul>
           {showMore || ( 
