@@ -110,6 +110,22 @@
             "github": "https://github.com/gracjaan/DataStructuresImplementation.git"
         }
     },
+    "id7": {
+        "name": "Stock Analyzer",
+        "hashtags": [ 
+            "#mediapipe",
+            "#yfinance",
+            "#scraper"
+        ],
+        "description": "Web scraping tool for stock analysis.",
+        "message" : "The tool performs sentiment analysis on the scraped data and concludes a general sentiment for the stock in question. This can be either positive, neutral or negative. The results are illustrated in the graph that plots stock price over time, with individual data points indicating the sentiment.",
+        "media": [
+            "/sa/2.png", "/sa/1.png"
+        ],
+        "links": {
+            "github": "https://github.com/gracjaan/StockAnalyzer.git"
+        }
+    },
     "default": {
         "name": "could not find resource.",
         "hashtags": [

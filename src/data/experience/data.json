@@ -18,8 +18,8 @@
         "title": "IT Help Desk",
         "period": "Feb 2022 - Mar 2022 | Full time",
         "description": [
-            "Monitored the IT help desk ticketing system, prioritized support requests, and ensured timely resolution of issues within established service level agreements (SLAs). Assisted in the implementation of security protocols and data protection measures to safeguard company information.", 
-            "Participated in the evaluation and testing of new software and hardware solutions to improve IT infrastructure and user experience.", 
+            "Monitored the IT help desk ticketing system, prioritized support requests, and ensured timely resolution of issues within established service level agreements (SLAs). Assisted in the implementation of security protocols and data protection measures to safeguard company information.",
+            "Participated in the evaluation and testing of new software and hardware solutions to improve IT infrastructure and user experience.",
             "Collaborated with cross-functional teams to address complex technical issues and escalated problems to higher-level support when necessary.",
             "Maintained accurate and up-to-date records of hardware and software inventory, making recommendations for upgrades or replacements as needed.",
             "Conducted regular system and software audits to ensure compliance with company policies and licensing agreements."
@@ -66,7 +66,28 @@
         "company": "Dr Irena Eris",
         "title": "Waiter",
         "period": "Jun 2020 - Sep 2020 | Full time",
-        "description": ["description"]
+        "description": [
+            "description"
+        ]
+    },
+    "id6": {
+        "company": "Amazon",
+        "title": "Incoming SDE Intern",
+        "period": "Jul 2024 | Full time",
+        "description": [
+            "I will be iterning at Amazon as a Software Development Engineer Intern in the summer of 2024. I am excited to work on real-world projects and gain hands-on experience in a fast-paced and innovative environment. I look forward to contributing to the team and learning from experienced professionals in the industry."
+        ]
+    },
+    "id7": {
+        "company": "El Nino",
+        "title": "Full Stack Developer",
+        "period": "Oct 2023 - Nov 2023 | Full time",
+        "description": [
+            "Developing and maintaining Victron Energy’s VRM software, a cloud-based monitoring and management platform for energy systems.",
+            "Worked closely with teams including designers, product managers, and other developers to understand and refine project requirements.",
+            "Developed and maintained web applications using modern technologies and frameworks, ensuring high performance and responsiveness.",
+            "Participated in code reviews, testing, and debugging to maintain code quality and minimize defects."
+        ]
     },
     "default": {
         "company": "could not find resource.",
