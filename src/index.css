@@ -14,6 +14,32 @@
   src: url("./fonts/AeonikTRIAL-Bold.otf");
 }
 
+@font-face {
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./fonts/Roslindale-DisplayMedium-Testing.otf')
+    format('opentype');
+}
+
+@font-face {
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Roslindale Display SemiBold'),
+    url('./fonts/Roslindale-DisplaySemiBold-Testing.otf')
+      format('opentype');
+}
+
+@font-face {
+  font-family: 'Roslindale';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roslindale Display Bold'),
+    url('./fonts/Roslindale-DisplayBold-Testing.otf')
+      format('opentype');
+}
+
 @layer base {
   html {
     -ms-overflow-style: none;
