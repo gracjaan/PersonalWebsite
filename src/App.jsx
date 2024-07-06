@@ -1,6 +1,7 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Main from "./pages/Main";
 import BlankStudio from "./pages/temp/BlankStudio";
+import StanStore from "./pages/temp/StanStore";
 import "./App.css";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
       <HashRouter>
         <Routes>
+          <Route path="/stanstore" element={<StanStore />} />
           <Route path="/blankstudio" element={<BlankStudio />} />
           <Route path="/" element={<Main />} />
         </Routes>
