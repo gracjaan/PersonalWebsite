@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Main from "./pages/Main";
 import BlankStudio from "./pages/temp/BlankStudio";
 import "./App.css";
@@ -6,12 +6,12 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
-          <Route path="/" element={<Main />} />
           <Route path="/blankstudio" element={<BlankStudio />} />
+          <Route path="/" element={<Main />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
