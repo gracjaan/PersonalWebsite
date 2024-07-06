@@ -91,6 +91,31 @@ const BlankStudio = () => {
                         >
                             Hi Ruben 👋
                         </motion.h1>
+                        <motion.h1
+                            variants={{
+                                start: {
+                                    x: 50,
+                                    rotate: -30
+                                },
+                                end: {
+                                    x: 0,
+                                    rotate: 0
+                                }
+                            }}
+                            whileHover={{
+                                scale: 1.05
+                            }}
+                            initial="start"
+                            animate="end"
+                            transition={{
+                                type: 'spring',
+                                stiffness: 70,
+                                duration: 2
+                            }}
+                            className="ml-20 whitespace-nowrap font-[Roslindale] text-black text-[3rem] font-medium sm:text-[4.5rem]"
+                        >
+                            Hej Wojtek 👋
+                        </motion.h1>
                     </div>
                     <div className="relative flex flex-col items-center justify-center">
                         <div className="z-10 mb-24 h-24 w-[2px] bg-black" />
@@ -228,6 +253,9 @@ const BlankStudio = () => {
                                     </p>
                                 </div>
                             </motion.div>
+                            <a className="underline decoration-wavy" href='/'>
+                                Check out my virtual CV
+                            </a>
                         </div>
                         <div className="relative h-[450px] w-[300px] sm:h-[600px] sm:w-[400px]">
                             <img
