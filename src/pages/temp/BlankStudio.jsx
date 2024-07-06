@@ -94,11 +94,11 @@ const BlankStudio = () => {
                         <motion.h1
                             variants={{
                                 start: {
-                                    x: 50,
-                                    rotate: -30
+                                    x: 0,
+                                    rotate: 30
                                 },
                                 end: {
-                                    x: 0,
+                                    x: 50,
                                     rotate: 0
                                 }
                             }}
@@ -112,9 +112,9 @@ const BlankStudio = () => {
                                 stiffness: 70,
                                 duration: 2
                             }}
-                            className="ml-20 whitespace-nowrap font-[Roslindale] text-black text-[3rem] font-medium sm:text-[4.5rem]"
+                            className="mr-20 whitespace-nowrap font-[Roslindale] text-[3rem] font-medium text-black sm:text-[4.5rem]"
                         >
-                            Hej Wojtek 👋
+                            Hey Wojtek 👋
                         </motion.h1>
                     </div>
                     <div className="relative flex flex-col items-center justify-center">
