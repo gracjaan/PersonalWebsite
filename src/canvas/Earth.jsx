@@ -1,14 +1,36 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "./Loader";
 
 const Earth = () => {
-  const earth = useGLTF("./planet/scene.gltf");
+  const { scene, isLoading } = useGLTF("./planet/scene.gltf");
+  const [isModelLoaded, setIsModelLoaded] = useState(false);
 
-  return (
-    <primitive object={earth.scene} scale={2.5} position-y={0} rotation-y={0} />
-  );
+  useEffect(() => {
+    if (!isLoading) {
+      scene.traverse((child) => {
+        if (child.isMesh) {
+          const position = child.geometry.attributes.position;
+          if (position) {
+            for (let i = 0; i < position.count; i++) {
+              if (isNaN(position.getX(i)) || isNaN(position.getY(i)) || isNaN(position.getZ(i))) {
+                console.error("NaN value found in position attribute");
+                return;
+              }
+            }
+          }
+        }
+      });
+      setIsModelLoaded(true);
+    }
+  }, [isLoading, scene]);
+
+  if (!isModelLoaded) {
+    return null;
+  }
+
+  return <primitive object={scene} scale={2.5} position-y={0} rotation-y={0} />;
 };
 
 const EarthCanvas = () => {
