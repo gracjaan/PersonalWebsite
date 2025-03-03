@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Nina from './pages/Nina';
 import Main from "./pages/Main";
 import BlankStudio from "./pages/temp/BlankStudio";
 import StanStore from "./pages/temp/StanStore";
